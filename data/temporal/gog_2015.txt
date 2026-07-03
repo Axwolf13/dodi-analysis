@@ -1,0 +1,158 @@
+PoliciesGOG User Agreement
+GOG.com User Agreement
+Hello, GOG user! We hope you have a great time playing games and doing other cool things via GOG.com. We've put a lot of work into building GOG.com and as a result we need to have some rules about how you can access and use GOG services. So, we've put this Agreement together as simply as we legally can, with some short summaries to help you understand what it means. However, please be aware that the full text wording is what is important/binding legally.
+
+LEGALLY BINDING VERSION"ENGLISH" VERSION
+1. ABOUT THIS AGREEMENT
+This agreement explains how you can access and use GOG services, like GOG.com or GOG games and video content.1.1 This Agreement is a contract between you and GOG Ltd, 7 Florinis Street, Greg Tower, 6th floor, 1065 Nicosia, Cyprus and applies to www.GOG.com, your GOG user account, the GOG Downloader, the GOG Galaxy Client for updating games, any games or videos or other content which you purchase or access via GOG.com, the GOG web forums, GOG customer and technical support and other services we provide to you (we'll just call all this “GOG services” for short).
+
+Also, when we're talking about GOG games or GOG videos or other content which you can purchase or access via GOG.com, we’ll just call them “GOG games” or “GOG videos” respectively and when we talk about them all together they are “GOG content”. Simple, eh? Oh, and one more thing – what we say in this Agreement covers our Privacy Policy too (you can read it at www.gog.com/support/policies/gog_privacy_policy), so the Privacy Policy is part of this Agreement.
+
+If you are not yet 18 years old you need parental/ guardian approval to use GOG.com. We know it sounds kind of silly – no, no – it is not our invention, but actually a legal requirement.1.2 If you're over 18, then welcome to GOG.com! If you're between 13 and 18 (or whatever is the age of adulthood in your country), before we extend an equally warm welcome, please ask your parent or guardian to review and approve this Agreement on your behalf (because in some countries people under a certain age cannot legally enter into contracts like this Agreement). Legally, children below 13 cannot have a GOG account (but their parents/guardians are welcome to sign up themselves).
+
+2. USING GOG.COM AND GOG CONTENT
+You have the personal right to use GOG content and services. This right can be waived by us in some situations (examples are below).2.1 We give you and other GOG users the personal right (known legally as a 'licence') to use GOG.com to download and/or stream (depending on the content) and use GOG content and other GOG services. This licence is for your personal use. We can stop or suspend this licence in some situations, which are explained later on.
+
+GOG games might have extra EULAs (End User Licensing Agreement) for you to accept.2.2 When you buy or install GOG games, you might have to agree to additional contract terms with the developer/publisher of the game (e.g. they might ask you to agree to a game specific End User Licence Agreement). If there is any inconsistency or dispute between those ‘EULAs’ and this Agreement, then this Agreement wins.
+
+As for the video content, stream or download it and watch the way you want.2.3 With GOG videos, you can also stream purchased video content or download it to watch the way you want.
+
+3. GOG ACCOUNTS
+To buy GOG content you will need to set up a GOG account. Make sure to keep your password safe! Check out our privacy policy too (link opposite).3.1 To buy GOG content from GOG.com, you will need to set up a GOG account. This will involve creating a password (which is encrypted so we can’t access it) and a username, plus giving us (for identification purposes) your email address. Please make sure your login credentials are kept secure and your account is used properly. In your GOG Account settings you can also optionally set your country of residence, birthday and avatar. Our Privacy Policy gives more detail about the information we collect from you and how we use it and protect it. It's at www.gog.com/support/policies/gog_privacy_policy.
+
+Your GOG account will have a public profile and you can communicate with other GOG users. Be sensible and careful!3.2 You can use your GOG account to set up a public profile accessible by other people. You can also use your GOG account to connect with other GOG users. Please act sensibly and remember you are responsible for your own actions.
+
+You can't sell your GOG content or account. You can gift GOG games or videos.3.3 Your GOG account and GOG content are personal to you. You can gift GOG games and GOG videos to other people (up to a limit of 5 per day and provided the recipient doesn’t already own the GOG game/video being gifted) however this might differ on a case by case basis, but you can't sell them or charge money for them.
+
+4. SYSTEM REQUIREMENTS
+Please make sure your computer and Internet connection are good enough to use GOG services and play GOG games and videos.4.1 Because GOG.com gives you access to many different games created at different times, we cannot give you one set of system requirements for all GOG services or GOG content.
+
+4.2 What we can tell you is that using any GOG game will require an appropriate operating system (please refer to the relevant GOG product page). All GOG games should be natively installed on a computer that meets or exceeds the minimum hardware and software specifications shown on the GOG product page. GOG games are not tested on virtual machine software and therefore we do not support playing through them.
+
+4.3 For GOG videos, please make sure your video player supports the videos’ format specified in the GOG product page.
+
+4.4 If you have questions about system requirements, please contact us at http://www.gog.com/support/contact. Just so we're clear, you are responsible for making sure you have sufficient Internet access to download purchased GOG games or GOG videos from us or to stream GOG videos and that your system can play GOG games and watch GOG videos.
+
+5. GOG BETA ACCESS
+We may offer beta access to new releases of GOG software or services. Beta versions aren't complete and we're not responsible for what happens while you're using them. Fear not, they should not blow up your computer!5.1 As GOG.com develops, we may offer you optional access to 'beta' versions of GOG software or services (e.g. new versions of the GOG Galaxy Client made available prior to its general release). Here are the rules:
+
+a) your access to the beta may be time-limited and there may be extra contract terms;
+b) you will probably be asked to participate in a feedback process in which you can offer information about how the beta works; and
+c) the beta software will be provided 'as is' without any additional promises from us or any liability on us if the software isn't complete or doesn't work fully or causes issues. After all, that's the point of us giving you beta access: you get beta access to something new, but you recognise that it won't be complete yet.
+6. PAYING FOR GOG CONTENT AND GETTING REFUNDS
+Paying for GOG content
+You can use a debit/credit card, PayPal or different local payment methods, to make purchases. Keep your payment details secure.6.1 Surprise surprise, after you decide that you like a GOG game, GOG video or other GOG content, you usually will need to pay for it before you can access it (though we do have some free content too!) You can pay in different ways: (i) using a valid debit or credit card; or (ii) using PayPal or any other authorised payment providers. Keep your payment details secure.
+
+You're responsible for your purchases. Kids – do not forget to get parental approval first.6.2 When you use a payment method to buy GOG content, we're relying on your promise that you're able to use that method. You are responsible for any purchases made using your GOG account or payment method. Kids – your parent or guardian needs to approve any purchase you make.
+
+You can pay in US Dollars and, depending on where you live, in Pounds Sterling, Euros, Australian Dollars or Russian Roubles.6.3 You can always pay for GOG content in US Dollars. However if you happen to live in countries, where Pounds Sterling, Euros, Australian Dollars or Russian Roubles are used, you will be able to pay in your local currency. You might have to pay a currency conversion charge if you are not paying in your home currency and some banks might also add other kinds of transaction fees.
+
+Fair Pricing
+We work hard to offer fair pricing. This means, where humanly possible, we will offer you fair pricing for GOG content and if we can’t we will offer Store Credit out of our own pocket for any difference between what you pay and the US price.
+Please treat this system sensibly and don't exploit it – that's not cool.6.4. We stand by the simple truth that $1 does not equal 1€ - we are trying to apply fair conversion rates. In a perfect world we would apply the same method of pricing to all of the games we offer. However, things are a little bit more complicated, and there are some games in our catalogue that follow a different region-based pricing scheme. However, we wouldn't be GOG.com if we didn't find a way to make it right by the users who end up paying relatively more for such titles. Here's where the Fair Price Package comes in!
+
+6.5. The Fair Price Package applies to all of the titles which we couldn't include in our standard pricing scheme. If you end up paying more for a game in your local currency than its US price, we'll refund you the difference out of our own pocket. The refunded value will be added to your account in Store Credit in the currency of your purchase. You'll be getting Store Credit that you can use to purchase anything on GOG.com or partially pay for an item that's more expensive. Store Credit will be credited to your GOG account in the currency in which you bought the relevant GOG content (e.g. if you bought a game in US Dollars, any Store Credit regarding it will be in US Dollars).
+
+6.6. Please treat this system sensibly and don't exploit it (for example by using VPNs or other methods to manipulate how your location appears) – that's not cool.
+
+Refunds and returns
+We're happy to offer you pre-order refunds, early exchanges and our money back guarantee (in appropriate cases). For more details you really will have to read the wall of text on the left – sorry.6.7 We understand that sometimes a purchase doesn't turn out how you expected and we want to be fair to GOG users. So here's our deal with you:
+
+a) Preorders Refund: if you preorder and pay for a GOG game, you can cancel the preorder and get a full refund as long as we receive a valid request before the game's full release date on GOG.com.
+b) Early Exchange: you can exchange validly purchased GOG content for a replacement GOG game or video of equal or lower value if your request is made within 30 days of the original purchase, provided the original GOG content has not been downloaded, used or streamed. (For GOG content purchased during discount periods, the discounted price applies.) You can exchange specific GOG content once only. You can’t exchange GOG content you received as an exchange for other GOG content.
+c) Money back guarantee: if you buy any GOG content and have significant technical issues with it (e.g. there is a major show stopper bug in a game that prevents you from finishing it), we will give you a full refund if all the following requirements are met:
+(i) You must have genuine significant technical issues with the GOG content.
+(ii) You need to contact GOG Customer Support to request the refund within 30 days of the original purchase (if you received it from a GOG-authorised exchange for another product, then the 30 day period starts running from the date of exchange).
+(iii) GOG Customer Support must have a reasonable time period in which to try to resolve the issue before they process the refund to you.
+d) Withdrawal Right: we give you the right to withdraw from a purchase of GOG content without charge and for any reason within 30 days after you bought that GOG content, IF it has not been downloaded, streamed, activated or used in any way before then. If any of those things happen then your withdrawal right is lost.
+6.8 Final sale: a sale is considered final either 30 days after purchase or when you try to download the GOG content or any additional/bonus content. Once either of those happens, you no longer will have any return, exchange or refund options unless you have technical issues covered by paragraph (c) above.
+
+Store Credit and Bonus Codes
+In some situations – like the Fair Pricing policy described earlier on – we will be offering you Store Credit, which will show up on your GOG account. You will be able to use it against your future purchases, and yes, you can use them as a partial payment too. There are some other boring but necessary legal rules about Store Credit – check them out opposite.
+
+If you decide to return or exchange GOG content which came with Store Credit or Bonus Codes, we think it’s fair to ask you to give them back too.
+
+One more important thing, your Store Credit is valid for one year from the most recent purchase that gave you Store Credit.6.9 In some situations we may be able to offer you a credit to your GOG account which you can redeem against GOG purchases (we’ll call this “Store Credit”). For example, as we explained in section 6.4 we may offer Store Credit to your GOG account in connection with our Fair Pricing policy in some situations. We may also issue time-limited bonus codes which give you free or reduced price access to GOG content (we’ll call them “Bonus Codes”).
+
+6.10 If you receive Store Credit or Bonus Codes when you buy GOG content but later decide to return that GOG content, then we think it’s fair for you to return the Store Credit or Bonus Codes too. Therefore, we will: (i) remove from your GOG account any unused Store Credit which you received because of that GOG content; (ii) if you have used any of that Store Credit to purchase other GOG content, then we will deduct the amount of that used Store Credit from your refund; and (iii) for Bonus Codes, we will terminate it or, if it has been redeemed for a GOG game, that game will be removed from your account.
+
+6.11 Other legal rules applying to Store Credit and Bonus Codes: Store Credit and Bonus Codes do not constitute electronic money of any kind. Store Credit and Bonus Codes are non-refundable and non-transferable. Store Credit and Bonus Codes have no cash value and are not exchangeable for cash. Store Credit and Bonus Codes do not constitute personal property rights, have no value outside GOG.com and can only be used to purchase GOG content. Store Credit and Bonus Codes that are deemed unclaimed property may be turned over to any applicable authority. Store Credit is valid for one year from the most recent purchase that gave you Store Credit (so any new purchase resulting in you getting Store Credit will refresh the expiration date of your Store Credit balance). GOG.com may implement additional rules on the use and amount of Store Credit and Bonus Codes in the future.
+
+7. PATCHES, UPDATES AND CHANGES
+From time to time we may need to patch or update how GOG services or content work.7.1 Occasionally we may need to patch or update GOG services or GOG content (for example to add or remove features or to resolve software bugs). We need these rights in order to keep GOG.com running efficiently.
+
+8. OWNERSHIP OF GOG.COM AND INTELLECTUAL PROPERTY RIGHTS
+We spent years building GOG.com and the GOG services ­ it’s our little baby. It’s the same for the games/videos and their respective creators/publishers. Enjoy it all, but please behave and do not cause trouble.8.1 GOG services including (but not limited to) their graphics, computer code, user interface, look and feel, audio, video, text, layout, databases, data and all other content, and all legal and exploitation rights regarding them are either owned by us or we license them from third parties. GOG content is owned by its developers/publishers and licensed by us. All rights are reserved except as we have explained in this Agreement. You may not use or exploit any part of the GOG services or GOG content except as explained in this Agreement.
+
+9. WHAT YOU CAN'T DO WITH GOG SERVICES
+GOG service and content are here for your personal enjoyment and please use them for this purpose only. For example, don't interfere with or hack GOG services.. Don't do or say things which are offensive or illegal. Be nice!9.1 Please follow these rules regarding the GOG services and GOG content:
+
+(a) Only use GOG services or GOG content for your personal enjoyment (for example, don't use them to make money).
+(b) Regarding GOG content, what you can do practically (which includes to modify, merge, distribute, translate, reverse engineer, decompile, disassemble, or create derivative works of it) depends on what the GOG content rights holder allows you to do (GOG can’t grant such rights), so please check this with the rights holder directly (the first thing you should do though is to check if they have a EULA and if so what it says). We also ask that you make only genuine attempts to improve the GOG content.
+(c) Regarding GOG services (which includes GOG software), unless you have prior GOG permission please don’t modify, merge, distribute, translate, reverse engineer, decompile, disassemble, or create derivative works of them – unless you’re allowed in this Agreement or by the law in your country. We’d like to emphasise that you are free to contact us for permission to do these things and we will review and respond to those requests in good faith. More generally, at some point in the future we want to open client protocols to make it easier for users to work with GOG data/software without any need for reverse engineering or similar techniques.
+(d) Don't hack, harm, grief or misuse GOG services or GOG content.
+(e) Don’t create or use cheats, exploits, automation software (aka 'bots') or other software or do anything else to give you an unfair competitive advantage regarding GOG services or GOG content (or try to circumvent or harm software meant to stop these things).
+(f) Don't interfere with the GOG or third party network software or other software including via tunnelling, code injection, modifying or changing GOG software, using any other similar software together with GOG services or GOG content, through protocol emulation, or through creation or use of private servers regarding GOG services or GOG content
+(g) Don't do or say anything which is or may be considered racist, xenophobic, sexist, defamatory or otherwise offensive or illegal. Be nice to each other please!
+10. USER GENERATED CONTENT
+You own your user generated content used in GOG services. Please make sure it doesn’t breach any third party rights.10.1 This section is about content (e.g. text, photos or links) which you make available either to us or to other GOG users via GOG services (for example through your profile picture or through messages to other GOG users). We'll call this "User Generated Content".
+
+10.2 As far as we and you are concerned, you own any User Generated Content but we need you to give us some limited rights over it so that we can actually transmit it through GOG services. So, we ask you to give us a non­exclusive, irrevocable licence to use, modify, reproduce, create derivative works from, distribute, transmit, communicate and publicly display/perform your User Generated Content in connection with GOG services.
+
+10.3 It is your responsibility to make sure that you have all necessary legal rights before you use User Generated Content and for checking they are safe to use – we can't know that ourselves, and we can't check it for you, so we have to rely on you.
+
+11. FEEDBACK OR SUGGESTIONS
+It’s cool to send us feedback and suggestions about GOG services ­ thank you! But please, don’t be disappointed if we don’t use them or reward you for them.11.1 You’re welcome to give us feedback and suggestions to improve GOG services and we really value them all. However, just so we’re clear, we don’t have to use or accept them and we won’t owe you anything (financially or otherwise) regarding them.
+
+12. USING GOG CONTENT IN FAN WORK
+If you want to make fan works using GOG content, you will have to find out on your own if that is permitted by the owner and get any necessary legal rights.12.1 For fan work (e.g. works like fan mods, machinima, parodies, homages, 'Let's Play' or other videos or artwork), you need to check with the content owner (e.g. the developer or publisher) if they are OK with it and if so you should get permission from them. The reason is simple – the GOG content is the property of the respective owner, not GOG.com’s.
+
+13. THIRD PARTY CONTENT AND EXTERNAL SERVICES
+You click on a link on GOG.com taking you outside of our little kingdom = we cannot look after you anymore.13.1 You might get links to third party websites or content through GOG services which aren’t connected to us. Using them is up to you – we’re not responsible for them, we can't promise they will work, what they'll be like or if they're free.
+
+You can also use your GOG account to access GOG­ approved external services, like our sister company CD PROJEKT RED’s cool stuff. It’s totally optional though.13.2 You can also use your GOG account to get easy access to some external, GOG­approved partner services, e.g. The Witcher games and sites from our sister company CD PROJEKT RED. They will have their own terms and conditions which you will need to agree and follow. Just to be clear: using these services is all optional and up to you. You have the power!
+
+14. WARRANTIES AND LIMITATION OF LIABILITY REGARDING GOG SERVICES
+We make legally binding promises (called 'warranties') about GOG services, for example that we will take reasonable care regarding your use of them. We also explain a bit further how we are responsible legally for GOG services and GOG content.14.1 We warrant that: (i) we have the right to enter this Agreement and to grant you the licence to use GOG services in section 2.1; and (ii) we will take reasonable care with the GOG services and your use of them; and (iii) we will use reasonable endeavours to comply with applicable laws in performing our obligations to you under this Agreement.
+
+14.2 We work hard to try to make GOG content work on your systems but we only have limited time to carry out tests and we don't always get everything right. Therefore, we can't accept any liability or responsibility for GOG content. We are also not responsible for anything that happens to GOG.com or GOG services which is outside of our control. However, don't forget you may be entitled to GOG content return and refund if it has technical issues ­ see section 6.6(c).
+
+15. TERMINATION
+If you seriously breach this Agreement you may lose access to GOG.com (temporarily or permanently). In the very unlikely situation that we have to stop running GOG.com we'll do our best to give you advance notice, so that you can download and safely store all your DRM­free content.15.1 We may cancel or suspend your access to GOG services and GOG content if you materially breach this Agreement. We'll try reasonably to contact you to explain why we've done this and what (if anything) you can do as a result. It seems very unlikely, but if we have to stop providing access to GOG services and GOG content permanently (not because of any breach by you), we will try to give you at least sixty (60) days advance notice by posting a note on www.gog.com and sending an email to every registered users – during that time you should be able to download any GOG content you purchased.
+
+6.2 If we cease providing GOG services or GOG content, or if your use of them is cancelled or suspended because of your breach, then we will not have any future obligations to you – including to offer refunds or payments.
+
+16. FORCE MAJEURE
+If unforeseen events beyond your or our control occur (war, earthquake, gigantic flood, alien attack, Godzilla, etc.­ ok the last two are jokes), then neither of us will be liable to the other for any obligations which can't be performed.16.1 Neither you nor us will be liable for any failure to perform any obligation under this Agreement or to provide access to GOG services and GOG content if that failure is caused by the happening of any unforeseen event beyond your or our reasonable control including without limitation, Internet outages, communications outages, fire, flood, war or act of God.
+
+17. GOVERNING LAW
+Any legal questions/complaints/ claims regarding this Agreement are under Cypriot law and jurisdiction (for users in the EU and rest of the world, excluding the USA) and Californian law and jurisdiction (for users in the USA only).For users resident in the European Union and elsewhere in the world (but not the USA):
+17.1 You and we agree that your use of GOG services and GOG content and this Agreement will be governed by and interpreted according to the laws of the Republic of Cyprus and that any dispute regarding this Agreement will be heard exclusively by the courts of the Republic of Cyprus. In any legal claim under this Agreement, the side which wins will be entitled to its legal fees and expenses.
+
+For users in the USA only:
+17.2 You and we agree that your use of GOG services and GOG content, and this Agreement, will be deemed to be entered into in Los Angeles, California and governed by and interpreted according to the laws of the State of California, USA (and, if applicable, US Federal law). Any legal claim by you against GOG.com will be made exclusively in any state or federal court located in Los Angeles, California, which will have subject matter jurisdiction regarding the dispute between you and us and therefore we both consent to the exclusive jurisdiction of those courts. In any legal claim under this Agreement, the side which wins will be entitled to its legal fees and expenses.
+
+18. OTHER LEGAL STUFF
+This section sets out a few additional, hopefully self­ explanatory rules about how this Agreement works legally.18.1 If any part of this Agreement is found not to be legally enforceable, this will not affect any other part of it.
+
+This Agreement and our Privacy Policy together are the contract between us and you. If anything is missing, contact us ASAP otherwise it will legally bind you.18.2 This Agreement and the GOG Privacy Policy constitute the entire agreement between you and us and supersede any earlier oral or written agreements. If you disagree with this, please contact us as soon as possible after you start using GOG services at legal@gog.com since otherwise this will be binding on you after a reasonable time period (usually 30 days).
+
+18.3 This Agreement governs our relationship with you (and vice versa). It does not create any rights for anyone else.
+
+18.4 Please remember we are subject to various laws and we may be required to comply with law enforcement or other legal requirements.
+
+18.5 If there is a reorganisation, sale or merger of GOG.com then we may need to work with relevant third parties to transfer or merge your GOG account.
+
+19. CHANGES TO THIS AGREEMENT
+We can change this Agreement but if we do we'll put the changed version online and normally it will take effect a reasonable time period afterwards. We’ll also email you (if you have a GOG account).
+
+If you have any problems with our changes, please contact us so we can talk to you. Don't just ragequit on us!19.1 We may change this Agreement if we think it's necessary, e.g. for legal reasons or to reflect changes in GOG services or GOG content. If so, we will make the changed Agreement available online at http://www.gog.com/support/policies/gog_user_agreement and (if you have a GOG account) email you to let you know about the changes.
+
+19.2 Once we change the Agreement, it will become legally binding on you a reasonable time period after we post it online (we believe 30 days will normally be reasonable). During that period, you're welcome to contact us at legal@gog.com if you have specific questions about the changes.
+
+19.3 If we don't hear from you before the end of that time period, the changes will automatically become binding on you. If you don't agree to those changes (regardless of whether you email us), then unfortunately we must ask you to cease using GOG services and GOG content. We're sorry we have to say that, but we hope you'll appreciate that for GOG.com to work properly we need to have everyone using it under the same rules instead of different people having different rules. That's why we encourage you to get in contact if you have queries or concerns.
+
+19.4 Just so you know, we'll never just make a bunch of changes to this Agreement, not tell you what they are and force you to agree to changes you don't understand before you can use GOG.com!
+
+Last updated on January 20, 2015
+

@@ -1,0 +1,7 @@
+textstat
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+requests

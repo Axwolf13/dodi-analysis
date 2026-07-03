@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# bulk corpus stays local; the download scripts rebuild it
+data/gaming/
+data/software/
+data/streaming/
+data/tosdr_corpus/
