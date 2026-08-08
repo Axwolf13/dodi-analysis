@@ -1,0 +1,21 @@
+{
+  "ownership_opacity": 65,
+  "readability_burden": 77,
+  "aggressive_clauses": 78,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "Document explicitly states software is 'licensed, not sold' but contradicts this with frequent 'purchase' and 'buy' language, creating false impression of ownership. Extensive aggressive clauses\u2014unilateral termination, data deletion, class action waiver, broad content removal rights\u2014combined with dense legal structure that obscures key terms make this significantly problematic for consumers.",
+  "evidence_quotes": [
+    "The software is licensed, not sold, and Microsoft reserves all rights to the software not expressly granted by Microsoft",
+    "you understand and acknowledge that your rights with respect to Digital Goods are limited by these Terms, copyright law, and the usage rules",
+    "you agree to binding individual arbitration before the American Arbitration Association and not to sue in court in front of a judge or jury",
+    "Microsoft may at any time regulate, control, modify and/or eliminate the game currency and/or virtual goods as it sees fit in its sole discretion",
+    "we may remove or refuse to publish Your Content for any reason",
+    "we have no obligation to provide a re-download or replacement of any material, Digital Goods...previously purchased"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/microsoft_2015",
+    "run": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 35,
+  "readability_burden": 25,
+  "aggressive_clauses": 30,
+  "overall_deception": 30,
+  "tosdr_style_grade": "B",
+  "rationale": "GOG explicitly frames transactions as licenses, stating 'known legally as a licence' upfront and explaining that licenses can be suspended\u2014notably transparent for the industry. However, pervasive 'buy' and 'purchase' language throughout creates confusion between marketing and legal reality. The document excels in readability with plain language and humor, lacks arbitration/class-action waivers, and offers generous refunds (30-day withdrawal, early exchange options). Combined, these factors make it substantially more consumer-friendly than typical digital platform ToS, though the license-versus-purchase framing remains a modest concern.",
+  "evidence_quotes": [
+    "We give you and other GOG users the personal right (known legally as a 'licence') to use GOG.com",
+    "This licence is for your personal use. We can stop or suspend this licence in some situations",
+    "you usually will need to pay for it before you can access it",
+    "we will try to give you at least sixty (60) days advance notice"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2015",
+    "run": 2
+  }
+}

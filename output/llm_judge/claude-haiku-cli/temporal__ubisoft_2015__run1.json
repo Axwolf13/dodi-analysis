@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 62,
+  "readability_burden": 82,
+  "aggressive_clauses": 78,
+  "overall_deception": 63,
+  "tosdr_style_grade": "E",
+  "rationale": "Ubisoft's terms explicitly state users own nothing and possess only limited, revocable licenses, but bury this under dense legal prose while using \"purchase\" language in consumer contexts. Aggressive features include mandatory arbitration with class-action waiver, unilateral termination without notice, broad liability exclusions, and non-refundable digital goods that can be revoked at company discretion. The combination of consumer-hostile restrictions and readability barriers makes this a category E agreement.",
+  "evidence_quotes": [
+    "claims must be brought in the parties' individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding",
+    "UBISOFT may suspend or close your Account...at any time, automatically and without any judicial formality for any reason",
+    "YOU ACKNOWLEDGE THAT UBISOFT IS NOT REQUIRED TO PROVIDE A REFUND FOR ANY REASON",
+    "You agree that you have no right, title or property interest into any content that appears in the Services...Virtual Currency and Virtual Items represent limited license rights...and are not transferable or redeemable",
+    "A PERMANENT BROADBAND INTERNET CONNECTION AND THE CREATION OF A UBISOFT ACCOUNT ARE NECESSARY TO PLAY"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/ubisoft_2015",
+    "run": 1
+  }
+}

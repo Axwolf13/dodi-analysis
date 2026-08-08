@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 20,
+  "readability_burden": 45,
+  "aggressive_clauses": 30,
+  "overall_deception": 25,
+  "tosdr_style_grade": "B",
+  "rationale": "Netflix's ToS is unusually transparent for a digital service, explicitly stating 'no right, title or interest shall be transferred to you' and consistently using 'access,' 'view,' and 'membership' language rather than 'buy.' However, the platform retains broad unilateral rights to terminate service and remove content, charges are non-refundable, and geographic restrictions apply. The terms are moderately readable and avoid the aggressive tactics common in many streaming platforms.",
+  "evidence_quotes": [
+    "During your Netflix membership we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and view Netflix content. Except for the foregoing, no right, title or interest shall be transferred to you.",
+    "Payments are non-refundable and we do not provide refunds or credits for any partial-month membership periods or unwatched Netflix content.",
+    "The content that may be available to watch will vary by geographic location and will change from time to time.",
+    "We may terminate or restrict your use of our service if you violate these Terms of Use or are engaged in illegal or fraudulent use of the service."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/netflix",
+    "run": 1
+  }
+}

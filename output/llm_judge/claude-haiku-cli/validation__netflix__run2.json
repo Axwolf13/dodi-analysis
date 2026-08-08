@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 30,
+  "readability_burden": 38,
+  "aggressive_clauses": 38,
+  "overall_deception": 35,
+  "tosdr_style_grade": "B",
+  "rationale": "Netflix's ToS is unusually transparent, explicitly stating users receive only 'limited, non-exclusive, non-transferable' rights with zero ownership transfer. However, unilateral price increases, content removal, and geographic restrictions reinforce control. The document lacks arbitration/class-action waivers found in worse ToS, but also lacks upfront warnings. The primary deception occurs in Netflix's marketing, not this document.",
+  "evidence_quotes": [
+    "During your Netflix membership we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and view Netflix content. Except for the foregoing, no right, title or interest shall be transferred to you.",
+    "Payments are non-refundable and we do not provide refunds or credits for any partial-month membership periods or unwatched Netflix content.",
+    "We may change our subscription plans and the price of our service from time to time",
+    "The content that may be available to watch will vary by geographic location and will change from time to time."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/netflix",
+    "run": 2
+  }
+}

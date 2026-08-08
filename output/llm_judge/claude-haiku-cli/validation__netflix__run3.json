@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 42,
+  "readability_burden": 48,
+  "aggressive_clauses": 58,
+  "overall_deception": 45,
+  "tosdr_style_grade": "C",
+  "rationale": "Netflix is remarkably transparent about granting only a limited license rather than ownership, using consistent subscription language and an explicit disclaimer that 'no right, title or interest shall be transferred to you.' However, unilateral termination, suspension, price change, and geo-restriction rights\u2014combined with vague language about content availability 'changing from time to time'\u2014still obscure how easily Netflix can revoke access or remove content.",
+  "evidence_quotes": [
+    "During your Netflix membership we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and view Netflix content. Except for the foregoing, no right, title or interest shall be transferred to you.",
+    "We may change our subscription plans and the price of our service from time to time.",
+    "We may terminate or restrict your use of our service if you violate these Terms of Use or are engaged in illegal or fraudulent use of the service.",
+    "The content that may be available to watch will vary by geographic location and will change from time to time."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/netflix",
+    "run": 3
+  }
+}

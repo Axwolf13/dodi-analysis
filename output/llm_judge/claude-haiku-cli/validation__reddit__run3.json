@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 77,
+  "aggressive_clauses": 76,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Reddit explicitly defines the relationship as a 'revocable, limited license' rather than a purchase, avoiding the deceptive framing seen in other platforms. However, the dense legal language obscures the practical implications, and unilateral rights to modify, suspend, or terminate services at any time without notice, combined with severe liability caps ($100), create substantial consumer disadvantage despite this transparency about ownership.",
+  "evidence_quotes": [
+    "Reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services",
+    "We reserve the right to modify, suspend, or discontinue the Services (in whole or in part) at any time, with or without notice",
+    "We may suspend or terminate your Account, moderator status, or ability to access or use the Services at any time for any or no reason",
+    "IN NO EVENT WILL THE AGGREGATE LIABILITY OF THE REDDIT ENTITIES EXCEED THE GREATER OF ONE HUNDRED U.S. DOLLARS ($100)"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/reddit",
+    "run": 3
+  }
+}

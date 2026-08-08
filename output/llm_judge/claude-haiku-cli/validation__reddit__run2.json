@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 68,
+  "aggressive_clauses": 75,
+  "overall_deception": 52,
+  "tosdr_style_grade": "D",
+  "rationale": "Reddit clearly states upfront that users receive only a 'revocable, limited license,' making ownership opacity relatively transparent compared to many tech ToS. However, the terms heavily favor Reddit through unilateral termination rights ('for any or no reason'), sweeping perpetual content licenses that allow derivatives and sublicensing without compensation, and broad liability caps. The use of 'purchase' language for Paid Services while granting no actual ownership, combined with complex legal structure requiring reference to external agreements, obscures consumer rights.",
+  "evidence_quotes": [
+    "Reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license",
+    "We may suspend or terminate your Account...at any time for any or no reason",
+    "you grant Reddit a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works of, distribute...Your Content",
+    "We reserve the right to modify, suspend, or discontinue the Services...at any time, with or without notice to you"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/reddit",
+    "run": 2
+  }
+}

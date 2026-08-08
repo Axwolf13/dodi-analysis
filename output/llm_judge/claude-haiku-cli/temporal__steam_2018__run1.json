@@ -1,0 +1,21 @@
+{
+  "ownership_opacity": 50,
+  "readability_burden": 75,
+  "aggressive_clauses": 80,
+  "overall_deception": 50,
+  "tosdr_style_grade": "D",
+  "rationale": "Steam explicitly denies ownership rights and frames all content as non-transferable licenses, making it relatively transparent compared to opaque platforms. However, marketing language ('purchase,' 'buy') contradicts this legal reality, creating consumer confusion. Numerous aggressive clauses\u2014unilateral termination without refund, mandatory arbitration with class-action waivers, broad user-generated content exploitation, and extensive liability disclaimers\u2014heavily favor Valve.",
+  "evidence_quotes": [
+    "The content and services are subject to a license agreement; that is, they are not sold.",
+    "The license granted to you does not create any ownership rights in or to the content and services.",
+    "Valve reserves the right to terminate your user account or a specific subscription(s) at any time",
+    "Deleting an account...does not entitle you to any refund",
+    "YOU AND VALVE AGREE THAT ALL DISPUTES...MUST BE RESOLVED...BY MANDATORY, CASE-SPECIFIC ARBITRATION",
+    "you hereby grant Valve and its affiliates a worldwide, non-exclusive right to use, reproduce, modify, distribute...user-generated content...for the entire duration of the intellectual property rights"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/steam_2018",
+    "run": 1
+  }
+}

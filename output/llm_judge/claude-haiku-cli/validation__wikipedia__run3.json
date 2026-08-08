@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 10,
+  "readability_burden": 38,
+  "aggressive_clauses": 38,
+  "overall_deception": 15,
+  "tosdr_style_grade": "B",
+  "rationale": "This nonprofit documentation is exceptionally transparent about the free-licensing model\u2014it explicitly prohibits users from revoking licenses they grant and requires all contributions under open licenses. The document contains no deceptive ownership framing. Consumer harms stem from standard but broad provisions (unilateral termination, liability cap, sweeping disclaimers) rather than hidden restrictions.",
+  "evidence_quotes": [
+    "you agree that you will not unilaterally revoke or seek invalidation of any license that you have granted under these Terms of Use",
+    "We reserve the right to suspend or end the services at any time, with or without cause, and with or without notice",
+    "we expressly disclaim all express or implied warranties of all kinds"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/wikipedia",
+    "run": 3
+  }
+}

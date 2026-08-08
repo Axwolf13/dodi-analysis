@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 38,
+  "aggressive_clauses": 48,
+  "overall_deception": 55,
+  "tosdr_style_grade": "C",
+  "rationale": "GOG explicitly frames purchases as revocable licences and emphasizes DRM-free downloads, making it more transparent than many platforms. However, marketing language uses 'buy' and 'purchase' for what is purely a limited licence, creating confusion for ordinary consumers. Moderate deception stems from this terminology gap rather than hidden clauses.",
+  "evidence_quotes": [
+    "We give you and other GOG users the personal right (known legally as a 'licence') to use GOG services and to download, access and/or stream",
+    "This licence is for your personal use. We can stop or suspend this licence in some situations",
+    "after you decide that you like a GOG game, GOG video or other GOG content, you usually will need to pay for it",
+    "we have the right to manage, modify and remove Virtual Goods if we consider necessary for the ongoing operation",
+    "during that time you should be able to download and safely store all your DRM-free content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2021",
+    "run": 1
+  }
+}

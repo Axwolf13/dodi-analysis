@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 42,
+  "readability_burden": 62,
+  "aggressive_clauses": 48,
+  "overall_deception": 44,
+  "tosdr_style_grade": "C",
+  "rationale": "Netflix's terms are unusually explicit about the license-only nature of access\u2014section 4.2 bluntly states 'no other rights, titles, or interests are transferred to you.' However, the subscription framing, auto-renewal mechanism, broad termination rights (4.6), and absence of language about Netflix's unilateral power to remove content or terminate accounts work together to obscure the full precarity of what users actually control. The document is dense with legal terminology and interspersed German passages that impede readability.",
+  "evidence_quotes": [
+    "During your Netflix membership, we grant you a limited, non-exclusive, and non-transferable right to access the Netflix service and view Netflix content. No other rights, titles, or interests are transferred to you.",
+    "Zahlungen nicht erstattungsf\u00e4hig. R\u00fcckerstattungen oder Gutschriften f\u00fcr nicht vollst\u00e4ndig genutzte Monate oder nicht gesehene Netflix-Inhalte werden nicht gew\u00e4hrt.",
+    "If you violate these Terms of Service or use the service in an illegal or fraudulent manner, we are authorized to terminate or restrict your use of our service.",
+    "you agree not to archive, reproduce, distribute, modify, display, perform, publish, license, create derivative works from, offer for sale, or exploit any content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/netflix_2018",
+    "run": 1
+  }
+}

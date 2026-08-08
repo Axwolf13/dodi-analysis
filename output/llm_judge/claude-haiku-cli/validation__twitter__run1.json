@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 40,
+  "readability_burden": 65,
+  "aggressive_clauses": 75,
+  "overall_deception": 55,
+  "tosdr_style_grade": "D",
+  "rationale": "Twitter's ToS is relatively explicit about licensing rather than ownership\u2014it doesn't market a 'purchase' and then hide the revocable license. However, it buries aggressive unilateral control clauses (termination 'for any or no reason', $100 liability cap) in dense legal language and complex sentence structures. The document uses opacity of length and complexity rather than deceptive framing.",
+  "evidence_quotes": [
+    "We may suspend or terminate your account or cease providing you with all or part of the Services at any time for any or no reason",
+    "Twitter gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software",
+    "IN NO EVENT SHALL THE AGGREGATE LIABILITY OF THE TWITTER ENTITIES EXCEED THE GREATER OF ONE HUNDRED U.S. DOLLARS",
+    "you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute such Content",
+    "you consent to personal jurisdiction and waive any objection as to inconvenient forum"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/twitter",
+    "run": 1
+  }
+}

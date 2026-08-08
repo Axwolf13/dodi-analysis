@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 28,
+  "readability_burden": 62,
+  "aggressive_clauses": 68,
+  "overall_deception": 44,
+  "tosdr_style_grade": "C",
+  "rationale": "Adobe is unusually transparent about the licensing model, explicitly stating in section 1.2 that services are 'licensed, not sold' and including plain-language summaries throughout. However, the class action waiver (14.2) and broad unilateral termination rights (11.2) are severely anti-consumer, though partially mitigated by an arbitration opt-out (14.6) and Adobe paying arbiter fees if unable to afford. The document contains genuinely pro-consumer elements (no AI training on user content, no local content scanning, 30-day notice), preventing a lower grade despite significant disputes-resolution restrictions.",
+  "evidence_quotes": [
+    "Our Services and Software are licensed, not sold, to you",
+    "you retain all rights and ownership of your Content",
+    "You may only resolve disputes with us on an individual basis, and you may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action",
+    "we may at any time immediately terminate or suspend your right to use and access the Services and Software if in Adobe's sole discretion",
+    "We will not use your Local or Cloud Content to train generative AI models except for Content you choose to submit to the Adobe Stock marketplace"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/adobe_2024",
+    "run": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 76,
+  "aggressive_clauses": 72,
+  "overall_deception": 54,
+  "tosdr_style_grade": "D",
+  "rationale": "Steam uses 'purchase' language throughout while explicitly disclaiming ownership ('licensed, not sold'), creating a transparency gap between marketing and legal reality. The document is dense and inaccessible to ordinary consumers, containing aggressive provisions including class action waivers, mandatory binding arbitration, and unilateral termination/amendment rights by Valve. Geographic carve-outs for EU/Quebec provide some consumer protections but the overall structure heavily favors the platform.",
+  "evidence_quotes": [
+    "The Content and Services are licensed, not sold. Your license confers no title or ownership in the Content and Services.",
+    "Steam Wallet funds do not constitute a personal property right, have no value outside Steam and can only be used to purchase Subscriptions",
+    "YOU AND VALVE AGREE NOT TO BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ACTION",
+    "Valve may amend this Agreement unilaterally at any time in its sole discretion",
+    "Valve may terminate your Account or any particular Subscription(s) at any time in the event that you breach any terms"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/steam_2021",
+    "run": 1
+  }
+}

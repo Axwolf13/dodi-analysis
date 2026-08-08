@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 30,
+  "readability_burden": 65,
+  "aggressive_clauses": 62,
+  "overall_deception": 35,
+  "tosdr_style_grade": "C",
+  "rationale": "This is primarily a user-generated-content platform agreement rather than a digital storefront, and it is unusually clear that users retain ownership of their own content while gaining no ownership of the Service itself; 'Purchases and Memberships' are referenced only in passing without any deceptive 'buy' framing to analyze. However, it carries real consumer risk elsewhere: YouTube can terminate access at its 'sole discretion' for commercial-viability reasons, caps its total liability at $500, and shortens the time to sue to one year, all wrapped in dense legalese and capitalized boilerplate.",
+  "evidence_quotes": [
+    "Using the Service does not give you ownership of or rights to any aspect of the Service",
+    "if YouTube believes, in its sole discretion, that provision of the Service to you is no longer commercially viable",
+    "TOTAL LIABILITY FOR ANY CLAIMS ... IS LIMITED TO THE GREATER OF ... AND (B) USD $500",
+    "ANY CAUSE OF ACTION ... MUST COMMENCE WITHIN ONE (1) YEAR ... OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/youtube",
+    "run": 1
+  }
+}

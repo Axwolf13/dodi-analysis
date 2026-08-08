@@ -1,0 +1,21 @@
+{
+  "ownership_opacity": 68,
+  "readability_burden": 78,
+  "aggressive_clauses": 82,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "The agreement explicitly frames services as revocable licenses rather than purchases, but contrasts sharply with marketing language using 'buy' and 'purchase' while burying termination and content-removal rights in dense legal text. Aggressive terms include mandatory individual arbitration eliminating class actions, sweeping warranty disclaimers, severe liability caps, unilateral account termination, and removal of digital goods without notice or compensation.",
+  "evidence_quotes": [
+    "The software is licensed, not sold, and Microsoft reserves all rights",
+    "you have no right or title in or to any such game currency or virtual goods",
+    "Microsoft or the owners of the Digital Goods may, from time to time, remove Digital Goods from the Services without notice",
+    "you and we agree to binding individual arbitration before the American Arbitration Association...and not to sue in court",
+    "MICROSOFT...MAKE NO WARRANTIES...WITH ALL FAULTS...AS AVAILABLE",
+    "if Microsoft disables the ability to use the applications on your devices...any associated license rights will terminate"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/microsoft_2021",
+    "run": 1
+  }
+}

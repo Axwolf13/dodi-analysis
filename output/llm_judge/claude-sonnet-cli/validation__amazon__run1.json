@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 28,
+  "readability_burden": 55,
+  "aggressive_clauses": 60,
+  "overall_deception": 32,
+  "tosdr_style_grade": "C",
+  "rationale": "This is a general platform agreement rather than a digital-goods storefront, so it doesn't market 'buying' content while hiding a licence-only reality; it plainly grants users a revocable licence to the Services and is largely upfront about that. It is aggressive elsewhere: a perpetual, irrevocable, sublicensable claim over user content, unilateral termination/suspension 'for any or no reason,' a $100 liability cap, and broad indemnification, though there is no arbitration or class-action waiver.",
+  "evidence_quotes": [
+    "Reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services",
+    "worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify... Your Content",
+    "We may suspend or terminate your Account... at any time for any or no reason"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/amazon",
+    "run": 1
+  }
+}

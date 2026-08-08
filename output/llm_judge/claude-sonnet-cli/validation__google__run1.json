@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 25,
+  "readability_burden": 28,
+  "aggressive_clauses": 48,
+  "overall_deception": 26,
+  "tosdr_style_grade": "C",
+  "rationale": "This is Google's general platform ToS, not a point-of-sale agreement, and it is unusually candid that use of services and software is a 'permission'/license while user-created content 'remains yours' \u2014 there's no 'buy' language dressing up a revocable license for digital goods. It still carries broad content-exploitation rights, unilateral suspension/termination power, and steep liability caps for business users, though notice-before-action commitments soften some of that.",
+  "evidence_quotes": [
+    "we retain any intellectual property rights we have in the services",
+    "This license allows Google to: host, reproduce, distribute, communicate, and use your content",
+    "Google reserves the right to suspend or terminate your access to the services or delete your Google Account"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/google",
+    "run": 1
+  }
+}

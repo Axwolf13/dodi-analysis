@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 48,
+  "readability_burden": 70,
+  "aggressive_clauses": 73,
+  "overall_deception": 56,
+  "tosdr_style_grade": "D",
+  "rationale": "The document claims 'you own all of the content' but immediately grants Facebook a 'non-exclusive, transferable, sub-licensable' license with vague termination rights ('letter or spirit' of terms, 'create risk or possible legal exposure'). Liability is capped at $100, users must indemnify Facebook for third-party claims, and termination can cut off all access. The false ownership framing combined with unilateral termination and liability waivers creates significant consumer risk.",
+  "evidence_quotes": [
+    "You own all of the content and information you post on Facebook...you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license",
+    "If you violate the letter or spirit of this Statement, or otherwise create risk or possible legal exposure for us, we can stop providing all or part of Facebook to you",
+    "OUR AGGREGATE LIABILITY...WILL NOT EXCEED THE GREATER OF ONE HUNDRED DOLLARS ($100)",
+    "If anyone brings a claim against us related to your actions, content or information on Facebook, you will indemnify and hold us harmless",
+    "WE ARE PROVIDING FACEBOOK AS IS WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/facebook_2015",
+    "run": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 35,
+  "readability_burden": 68,
+  "aggressive_clauses": 77,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Spotify explicitly frames content access as a limited, revocable license rather than a purchase, providing transparent clarity on ownership. However, pervasive aggressive clauses\u2014mandatory arbitration, class action waivers, unilateral termination rights, and perpetual user-content exploitation\u2014create an asymmetrical relationship where consumers' rights are far more limited and ephemeral than the license framing suggests, obscuring the true cost of reliance.",
+  "evidence_quotes": [
+    "The Spotify software applications and the Content are licensed, not sold, to you, and Spotify and its licensors retain ownership of all copies",
+    "Spotify may terminate the Agreements or suspend your access to the Spotify Service at any time, including in the event of your actual or suspected unauthorised use",
+    "YOU AND SPOTIFY AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER",
+    "you grant Spotify a non-exclusive, transferable, sub-licensable, royalty-free, perpetual...irrevocable...worldwide licence to use...any of your User Content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/spotify_2018",
+    "run": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 48,
+  "readability_burden": 62,
+  "aggressive_clauses": 80,
+  "overall_deception": 56,
+  "tosdr_style_grade": "D",
+  "rationale": "Adobe uses consistent licensing language and explicitly states users retain ownership of their content, avoiding the worst opacity tactics. However, the document buries critical anti-consumer provisions: mandatory arbitration with class action waiver (Section 13.3), liability capped at $100 (Section 9.2), software that may cease operating without notice (Section 10.4), and unilateral rights to modify terms and discontinue service. The revocable, temporary nature of the service isn't sufficiently emphasized upfront, and the document's length and legal density create a significant readability burden that prevents ordinary consumers from understanding the true scope of protections they lack.",
+  "evidence_quotes": [
+    "Upon the expiration or termination of the Services, some or all of the Software may cease to operate without prior notice.",
+    "Our total liability in any matter arising out of or related to these terms is limited to US $100 or the aggregate amount that you paid for access to the Service and Software during the three-month period preceding the event giving rise to the liability",
+    "You may only resolve disputes with us on an individual basis, and may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action.",
+    "We are not liable to you or anyone else for: (a) any loss of use, data, goodwill, or profits, whether or not foreseeable",
+    "We may modify, update, or discontinue the Services, Software (including any of their portions or features) at any time without liability to you"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/adobe_2015",
+    "run": 1
+  }
+}

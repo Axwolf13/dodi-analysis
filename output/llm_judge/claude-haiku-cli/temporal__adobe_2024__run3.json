@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 40,
+  "readability_burden": 68,
+  "aggressive_clauses": 63,
+  "overall_deception": 50,
+  "tosdr_style_grade": "C",
+  "rationale": "Adobe explicitly frames services as licensed rather than purchased and clearly states users own their content\u2014more transparent than typical tech terms. However, the 60-section document with forced arbitration, broad unilateral termination rights, and complex legal language obscure the practical implications of revocable licensing. The explicit prohibition on AI training without user consent provides meaningful consumer protection, but doesn't fully offset the aggressive dispute-resolution clauses.",
+  "evidence_quotes": [
+    "Our Services and Software are licensed, not sold, to you",
+    "you grant us a non-exclusive, limited, revocable right",
+    "You may only resolve disputes with us on an individual basis, and you may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action",
+    "We will not use your Local or Cloud Content to train generative AI models except for Content you choose to submit to the Adobe Stock marketplace"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/adobe_2024",
+    "run": 3
+  }
+}

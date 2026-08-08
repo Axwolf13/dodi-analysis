@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 5,
+  "readability_burden": 45,
+  "aggressive_clauses": 20,
+  "overall_deception": 5,
+  "tosdr_style_grade": "A",
+  "rationale": "This is a remarkably transparent free-access ToS, not a purchase agreement disguised as a license. Users get permanent free read access and can contribute under standard open licenses (CC-BY-SA, GFDL). The document explicitly frames access as free from the start, uses a plain-language summary, and is unusually clear about what users receive and what contributors grant.",
+  "evidence_quotes": [
+    "You are free to: Read and Print our articles and other media free of charge.",
+    "You License Freely Your Contributions \u2013 you generally must license your contributions and edits to our sites or Projects under a free and open license",
+    "your public contributions will remain publicly available",
+    "This is a human-readable summary of the Terms of Use... It is simply a handy reference for understanding the full terms."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/wikipedia",
+    "run": 2
+  }
+}

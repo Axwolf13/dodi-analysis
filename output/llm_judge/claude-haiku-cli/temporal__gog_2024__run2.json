@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 50,
+  "readability_burden": 38,
+  "aggressive_clauses": 46,
+  "overall_deception": 44,
+  "tosdr_style_grade": "C",
+  "rationale": "GOG is notably transparent about granting licenses rather than ownership, explicitly stating this early and using simplified language summaries. However, marketing language ('buy') masks the legal reality of revocable licenses, and unilateral modifications to virtual goods with minimal recourse undermine consumer protections. The agreement avoids arbitration clauses and includes a voluntary refund policy beyond statutory rights, placing it in the middle tier compared to competitors.",
+  "evidence_quotes": [
+    "We give you and other GOG users the personal right (known legally as a 'license') to use GOG services... We can stop or suspend this license in some situations",
+    "Your GOG account and GOG content are personal to you and cannot be shared with, sold, gifted or transferred to anyone else",
+    "Virtual Goods may be changed, amended or reversed if necessary... we have no liability to you",
+    "if you have received Bonus Codes when you buy GOG content but later decide to return that GOG content, then... that game will be removed from your account"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2024",
+    "run": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 35,
+  "readability_burden": 78,
+  "aggressive_clauses": 78,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Twitter explicitly frames access as a revocable license rather than ownership, stating 'Twitter gives you a personal...license to use the software,' which provides transparency unusual among digital services. However, this clarity is undermined by the ability to terminate 'for any or no reason,' broad third-party content exploitation rights, and extreme liability waivers buried in dense legal prose that obscures the practical impact on users.",
+  "evidence_quotes": [
+    "Twitter gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license",
+    "We may suspend or terminate your account or cease providing you with all or part of the Services at any time for any or no reason",
+    "you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute such Content",
+    "The Twitter Entities...disclaim all responsibility and liability for...whether the Services will meet your requirements",
+    "without liability to you"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/twitter_2018",
+    "run": 1
+  }
+}

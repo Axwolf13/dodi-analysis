@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 32,
+  "readability_burden": 48,
+  "aggressive_clauses": 36,
+  "overall_deception": 28,
+  "tosdr_style_grade": "B",
+  "rationale": "GOG is unusually transparent about licensing versus ownership, explicitly stating in Section 2.1 that users receive a 'personal license' rather than ownership, with plain-language explanations and side summaries. However, marketing still uses 'buy' while legal terms grant only revocable licenses. Protections include statutory refunds, EU withdrawal rights, downloadable DRM-free backups, and moderation appeals\u2014offsetting moderate unilateral powers like suspension rights and service termination clauses.",
+  "evidence_quotes": [
+    "We give you and other GOG users the personal right (known legally as a 'license') to use GOG services...This license is for your personal use. We can stop or suspend this license in some situations.",
+    "You have no property interest or right or title in any Virtual Goods, which remains the appropriate publisher's property.",
+    "If we have to stop providing access to GOG services and GOG content permanently...you should be able to download any GOG content you purchased.",
+    "During that time you should be able to download and safely store all your DRM-free content."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2024",
+    "run": 1
+  }
+}

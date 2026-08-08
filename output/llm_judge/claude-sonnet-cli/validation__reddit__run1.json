@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 25,
+  "readability_burden": 45,
+  "aggressive_clauses": 55,
+  "overall_deception": 30,
+  "tosdr_style_grade": "C",
+  "rationale": "This is Reddit's general platform User Agreement rather than a digital-storefront contract, so it mostly avoids 'buy' language for content ownership; Paid Services/Virtual Goods are purchased but ownership terms are punted to a separate agreement not shown here. It does grant Reddit a broad perpetual, irrevocable, sublicensable license over user content, allows termination or service discontinuation at Reddit's sole discretion with no liability, and caps damages at $100, though notably lacks an arbitration or class-action waiver.",
+  "evidence_quotes": [
+    "revocable, limited license to use and access the Services",
+    "worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license",
+    "We may suspend or terminate your Account, moderator status, or ability to access or use the Services at any time for any or no reason"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/reddit",
+    "run": 1
+  }
+}

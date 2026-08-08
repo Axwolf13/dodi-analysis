@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 62,
+  "aggressive_clauses": 78,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "Instagram's terms are unusually transparent about licensing versus ownership of user content, explicitly disclaiming ownership claims. However, this is severely outweighed by aggressive clauses: binding individual arbitration with class action waiver, a $100 liability cap, and unilateral account termination for vague reasons ('create risk or legal exposure'). The possessive framing of 'your account' and 'your content' masks that users retain no enforceable rights over either.",
+  "evidence_quotes": [
+    "We can refuse to provide or stop providing all or part of the Service to you (including terminating or disabling your account) immediately to protect our community or services, or if you create risk or legal exposure for us",
+    "YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION",
+    "Our aggregate liability arising out of or relating to these Terms will not exceed the greater of $100 or the amount you have paid us in the past twelve months",
+    "We do not claim ownership of your content, but you grant us a license to use it (consistent with your privacy and application settings)"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/instagram",
+    "run": 1
+  }
+}

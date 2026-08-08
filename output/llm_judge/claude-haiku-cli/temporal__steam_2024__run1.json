@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 70,
+  "readability_burden": 76,
+  "aggressive_clauses": 78,
+  "overall_deception": 68,
+  "tosdr_style_grade": "E",
+  "rationale": "Steam explicitly states content is 'licensed, not sold' with 'no title or ownership' (Section 2.A), but uses purchase language in marketing contexts and buries this critical fact deep in a 40+ page dense legal document. The real damage comes from unilateral termination rights ('at any time'), binding arbitration, class action waivers eliminating collective recourse, unilateral amendment power, and comprehensive liability disclaimers\u2014a stack of aggressive clauses that render theoretical ownership distinctions irrelevant.",
+  "evidence_quotes": [
+    "The Content and Services are licensed, not sold. Your license confers no title or ownership in the Content and Services.",
+    "Valve may restrict or cancel your Account or any particular Subscription(s) at any time",
+    "YOU AND VALVE AGREE NOT TO BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ACTION",
+    "Valve may amend this Agreement unilaterally at any time in its sole discretion",
+    "WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/steam_2024",
+    "run": 1
+  }
+}

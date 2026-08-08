@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 65,
+  "readability_burden": 73,
+  "aggressive_clauses": 78,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "Steam explicitly states content is 'licensed, not sold' but obscures consequences through dense legal language and contrast with marketplace marketing ('purchase'/'buy'). Binding arbitration, class action waivers, unilateral account termination without notice or refund, and broad liability waivers create severe consumer risk that the document fails to emphasize, making the practical ownership situation far worse than the transparent licensing language suggests.",
+  "evidence_quotes": [
+    "The Content and Services are licensed, not sold. Your license confers no title or ownership in the Content and Services.",
+    "Valve may cancel your Account or any particular Subscription(s) at any time...no refund...will be granted.",
+    "YOU AND VALVE AGREE TO RESOLVE ALL DISPUTES AND CLAIMS BETWEEN US IN INDIVIDUAL BINDING ARBITRATION.",
+    "YOU AND VALVE AGREE NOT TO BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ACTION",
+    "All charges incurred on Steam, and all purchases made with the Steam Wallet, are payable in advance and final."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/steam_2015",
+    "run": 1
+  }
+}

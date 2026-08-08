@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 40,
+  "readability_burden": 50,
+  "aggressive_clauses": 55,
+  "overall_deception": 40,
+  "tosdr_style_grade": "B",
+  "rationale": "GOG is notably transparent\u2014explicitly labeling transactions as 'licences' in section 2.1 rather than hiding it. However, pervasive use of 'buy' and 'purchase' language creates tension with the license model. Consumer protections are strong: 30-day returns, ability to download on service shutdown, no arbitration clauses; but unilateral termination and virtual goods modification rights are concerning.",
+  "evidence_quotes": [
+    "We give you and other GOG users the personal right (known legally as a 'licence') to use GOG services and to download and/or stream (depending on the content) and use GOG content. This licence is for your personal use. We can stop or suspend this licence in some situations",
+    "You have no property interest or right or title in any Virtual Goods, which remains the appropriate publisher's property",
+    "if we have to stop providing access to GOG services and GOG content permanently (not because of any breach by you), we will try to give you at least sixty (60) days advance notice...during that time you should be able to download any GOG content you purchased"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2018",
+    "run": 1
+  }
+}

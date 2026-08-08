@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 32,
+  "readability_burden": 40,
+  "aggressive_clauses": 38,
+  "overall_deception": 35,
+  "tosdr_style_grade": "C",
+  "rationale": "Google's ToS is notably transparent that services are offered as revocable licenses, not sales, with clear headings and plain-language examples. However, the license Google takes to user content is broad\u2014including modification, analysis, and derivative uses\u2014and the company retains unilateral termination rights. The document works to make these broad rights seem reasonable through disclosure and organized explanation, rather than through deception, but the power asymmetry remains substantial.",
+  "evidence_quotes": [
+    "we give you permission to use our services if you agree to follow these terms",
+    "Google reserves the right to suspend or terminate your access to the services or delete your Google Account",
+    "modify your content, such as reformatting or translating it",
+    "Your content remains yours, which means that you retain any intellectual property rights that you have in your content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/google",
+    "run": 1
+  }
+}

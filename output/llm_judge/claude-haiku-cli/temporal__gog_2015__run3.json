@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 28,
+  "readability_burden": 38,
+  "aggressive_clauses": 22,
+  "overall_deception": 24,
+  "tosdr_style_grade": "B",
+  "rationale": "GOG is unusually transparent for a digital platform, explicitly stating in section 2.1 that users receive 'a personal right (known legally as a licence)' that 'can be stopped or suspended.' The document provides strong consumer protections including 30-day withdrawal rights (6.7d), 60-day notice for permanent service termination (15.1), refunds for technical issues, and commitment to DRM-free downloadable content. Unlike competitors, there are no arbitration or class action waivers. However, some opacity remains in using 'purchase' language alongside licence grants, and standard platform restrictions apply (unilateral modifications, Store Credit non-refundability).",
+  "evidence_quotes": [
+    "the personal right (known legally as a 'licence') to use GOG.com to download and/or stream",
+    "We can stop or suspend this licence in some situations, which are explained later on.",
+    "if we have to stop providing access to GOG services and GOG content permanently (not because of any breach by you), we will try to give you at least sixty (60) days advance notice",
+    "you can withdraw from a purchase of GOG content without charge and for any reason within 30 days after you bought that GOG content, IF it has not been downloaded, streamed, activated or used in any way",
+    "you can also stream purchased video content or download it to watch the way you want"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2015",
+    "run": 3
+  }
+}

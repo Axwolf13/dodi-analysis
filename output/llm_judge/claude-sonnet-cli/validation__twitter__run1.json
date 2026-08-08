@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 25,
+  "readability_burden": 72,
+  "aggressive_clauses": 62,
+  "overall_deception": 38,
+  "tosdr_style_grade": "C",
+  "rationale": "This is a platform ToS rather than a digital-goods storefront, and it is unusually direct about content ownership ('What's yours is yours'), so it scores low on ownership opacity; but it pairs that with an extremely broad, royalty-free, sublicensable content license granted for 'no compensation,' an any-time/any-reason termination clause, a $100 liability cap, and dense boilerplate repeated twice for different jurisdictions that burdens readability.",
+  "evidence_quotes": [
+    "What's yours is yours \u2014 you own your Content",
+    "the use of the Services by you is hereby agreed as being sufficient compensation for the Content and grant of rights herein",
+    "We may suspend or terminate your account or cease providing you with all or part of the Services at any time for any or no reason",
+    "shall not exceed the greater of one hundred U.S. dollars ($100.00) or the amount you paid Twitter"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/twitter",
+    "run": 1
+  }
+}

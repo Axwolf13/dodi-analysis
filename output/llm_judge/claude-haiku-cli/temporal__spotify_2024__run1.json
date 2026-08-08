@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 62,
+  "readability_burden": 78,
+  "aggressive_clauses": 82,
+  "overall_deception": 70,
+  "tosdr_style_grade": "D",
+  "rationale": "Spotify explicitly states content is 'licensed, not sold' but buries this in dense legal text while marketing uses 'purchase.' The terms combine aggressive restrictions\u2014mandatory individual arbitration, class action waiver, $30 liability cap, unilateral termination without refund, and content removal without notice\u2014that heavily favor Spotify and obscure consumer rights.",
+  "evidence_quotes": [
+    "The Spotify software applications and the Content are licensed, not sold or transferred to you",
+    "limited, non-exclusive, revocable permission to make personal, non-commercial use",
+    "AGGREGATE LIABILITY... MORE THAN THE GREATER OF (A) THE AMOUNTS PAID BY YOU... OR (B) $30.00",
+    "YOU AND SPOTIFY AGREE THAT EACH MAY BRING CLAIMS... ONLY IN YOUR INDIVIDUAL CAPACITY AND NOT AS A CLASS MEMBER",
+    "Spotify may... stop providing all or part of the Spotify Service without notice or liability"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/spotify_2024",
+    "run": 1
+  }
+}

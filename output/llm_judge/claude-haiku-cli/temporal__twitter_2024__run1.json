@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 76,
+  "aggressive_clauses": 72,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "X's ToS is unusually transparent about granting only a revocable license to use the platform rather than ownership, explicitly stating 'you own your Content' and that the software license is 'non-assignable and non-exclusive.' However, the document aggressively limits user protections through unilateral termination-for-convenience rights, a $100 liability cap regardless of harm, mandatory class action waivers, and sweeping data usage rights. Deception lies not in ownership framing but in burying these harsh terms within dense legal prose.",
+  "evidence_quotes": [
+    "We may suspend or terminate your account...for any other reason or no reason at our convenience",
+    "IN NO EVENT SHALL THE AGGREGATE LIABILITY...EXCEED THE GREATER OF ONE HUNDRED U.S. DOLLARS",
+    "To the extent permitted by law, you also waive the right to participate as a plaintiff or class member in any purported class action",
+    "This license authorizes us to make your Content available to the rest of the world...with no compensation paid to you",
+    "We may stop (permanently or temporarily) providing the Services...at our discretion"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/twitter_2024",
+    "run": 1
+  }
+}

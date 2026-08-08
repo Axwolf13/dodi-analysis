@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 68,
+  "readability_burden": 45,
+  "aggressive_clauses": 70,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "The document repeatedly uses consumer-purchase language ('buying', 'purchased', 'gift') while burying the actual legal reality that virtual goods and subscriptions are merely revocable, non-transferable licenses with no ownership, cash value, or compensation on loss. It compounds this with sole-discretion termination clauses, no refunds after account termination, and a forced waiver of EU statutory withdrawal rights.",
+  "evidence_quotes": [
+    "You do not own, or have any other right, title, or other proprietary interest in these virtual goods, regardless of any consideration offered or paid in exchange.",
+    "We reserve the right to control, regulate, change or remove any virtual goods, or terminate provision of virtual goods at any time, in our sole discretion, without any liability to you.",
+    "you will be presented with a waiver to your right to cancel your subscription or purchase. If you wish to complete the purchase, you must agree to this waiver."
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/discord",
+    "run": 1
+  }
+}

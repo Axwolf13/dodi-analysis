@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 35,
+  "readability_burden": 32,
+  "aggressive_clauses": 28,
+  "overall_deception": 38,
+  "tosdr_style_grade": "C",
+  "rationale": "Netflix is unusually transparent about the licensing model, explicitly stating 'no right, title or interest shall be transferred to you' rather than hiding this in dense legal language. However, the service remains revocable and content availability is unilaterally controlled. The document lacks arbitration clauses and class action waivers common in many ToS, offers 30-day price change notice with cancellation rights, and is reasonably well-structured\u2014though it still restricts user control over downloaded content and imposes geographic limitations.",
+  "evidence_quotes": [
+    "During your Netflix membership we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and Netflix content. Except for the foregoing, no right, title or interest shall be transferred to you.",
+    "Netflix may cancel your account by providing one month prior written notice.",
+    "you agree not to: archive, reproduce, distribute, modify, display, perform, publish, license, create derivative works from, offer for sale, or use content and information contained on or obtained from or through the Netflix service",
+    "Offline Titles...will not be playable while you are in that country"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/netflix_2024",
+    "run": 1
+  }
+}

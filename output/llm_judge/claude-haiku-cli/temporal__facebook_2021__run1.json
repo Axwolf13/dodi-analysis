@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 40,
+  "readability_burden": 70,
+  "aggressive_clauses": 65,
+  "overall_deception": 60,
+  "tosdr_style_grade": "D",
+  "rationale": "Facebook's terms employ moderately transparent license language for user content while obscuring the true transaction: extensive behavioral data harvesting in exchange for revocable platform access. Severe unilateral termination rights, broad liability waivers capped at $100, and expansive off-platform surveillance create heavily one-sided obligations that disadvantage users significantly.",
+  "evidence_quotes": [
+    "If we determine that you have clearly, seriously or repeatedly breached our Terms or Policies...we may suspend or permanently disable access to your account",
+    "Our aggregate liability will not exceed the greater of $100 or the amount you have paid us in the past twelve months",
+    "we use the data we have\u2014for example...what you share and do on and off our Products",
+    "We make no guarantees that they always will be safe, secure, or error-free, or that they will function without disruptions",
+    "to provide our services we need you to give us some legal permissions (known as a 'license')"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/facebook_2021",
+    "run": 1
+  }
+}

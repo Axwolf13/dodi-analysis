@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 50,
+  "readability_burden": 60,
+  "aggressive_clauses": 65,
+  "overall_deception": 48,
+  "tosdr_style_grade": "C",
+  "rationale": "GOG explicitly frames transactions as revocable licenses in section 2.1, making it more transparent than many digital storefronts, but marketing language throughout uses \"buy\" and \"purchase\" that contradicts the legal reality. The document is lengthy with legal vocabulary, though structured summaries and plain language sections provide some relief. Unilateral termination, content modification, and contract change rights are concerning, but the absence of arbitration clauses and presence of a refund policy mitigate the aggressiveness somewhat.",
+  "evidence_quotes": [
+    "We give you...the personal right (known legally as a 'license') to use GOG services",
+    "Your right to use any Virtual Goods is...revocable license. You have no property interest or right or title",
+    "If you materially breach this Agreement, we reserve the right to suspend or cancel your access",
+    "We can change this Agreement...within 30 days of their announcement online",
+    "you should be able to download any GOG content you purchased [if service shuts down]"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2024",
+    "run": 3
+  }
+}

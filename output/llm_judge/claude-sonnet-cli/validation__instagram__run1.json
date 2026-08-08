@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 10,
+  "readability_burden": 60,
+  "aggressive_clauses": 78,
+  "overall_deception": 25,
+  "tosdr_style_grade": "D",
+  "rationale": "This is a free social-media service agreement, not a digital storefront, so it contains no 'buy' language for content and states plainly that users retain ownership of what they post while granting a broad usage license, making ownership opacity low. It is nonetheless long and legally dense, and backs itself with aggressive clauses: mandatory binding arbitration, a class-action/jury-trial waiver, broad user indemnification, and a liability cap of just $100.",
+  "evidence_quotes": [
+    "We do not claim ownership of your content, but you grant us a license to use it.",
+    "YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION",
+    "Our aggregate liability arising out of or relating to these Terms will not exceed the greater of $100"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/instagram",
+    "run": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 48,
+  "readability_burden": 61,
+  "aggressive_clauses": 71,
+  "overall_deception": 52,
+  "tosdr_style_grade": "D",
+  "rationale": "YouTube explicitly disclaims user ownership of the service and defines content consumption as limited-use viewing, but defers actual purchase terms elsewhere without explanation. The most troubling element is unilateral termination 'if YouTube believes, in its sole discretion, that provision of the Service to you is no longer commercially viable'\u2014allowing access revocation without breach or notice. Combined with broad liability waivers and the monetization of user content without guaranteed compensation, the agreement heavily favors YouTube.",
+  "evidence_quotes": [
+    "Using the Service does not give you ownership of or rights to any aspect of the Service",
+    "YouTube may terminate your access... if YouTube believes, in its sole discretion, that provision of the Service to you is no longer commercially viable",
+    "YOUTUBE WILL NOT BE RESPONSIBLE FOR ANY LOSS OF PROFITS, REVENUES, BUSINESS OPPORTUNITIES, GOODWILL, OR ANTICIPATED SAVINGS",
+    "You grant to YouTube the right to monetize your Content on the Service (and such monetization may include displaying ads on or within Content or charging users a fee for access). This Agreement does not entitle you to any payments."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/youtube",
+    "run": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 55,
+  "readability_burden": 70,
+  "aggressive_clauses": 65,
+  "overall_deception": 60,
+  "tosdr_style_grade": "C",
+  "rationale": "Facebook explicitly states users own their content, which is more transparent than many platforms. However, the document immediately grants itself 'non-exclusive, transferable, sub-licensable' rights to modify and create derivative works\u2014an enormous scope hidden in legal jargon. The complex structure, numerous cross-references to unstated policies, broad data collection rights, and severe liability limitations create substantial friction against consumer understanding.",
+  "evidence_quotes": [
+    "you grant us a non-exclusive, transferable, sub-licensable, and worldwide license to host, use, distribute, modify, run, copy, publicly perform or display, translate, and create derivative works of your content",
+    "Your name and profile picture and information about actions you have taken on Facebook can be used next to or in connection with ads, offers, and other sponsored content that we display across our Products, without any compensation to you",
+    "Without limiting any of the above, we shall be liable for slight negligence only in the case of violation of an 'essential' obligation under this agreement"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/facebook",
+    "run": 1
+  }
+}

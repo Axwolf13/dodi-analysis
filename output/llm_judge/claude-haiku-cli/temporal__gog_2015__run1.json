@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 32,
+  "readability_burden": 45,
+  "aggressive_clauses": 28,
+  "overall_deception": 33,
+  "tosdr_style_grade": "B",
+  "rationale": "GOG explicitly discloses in section 2.1 that users receive a revocable personal 'licence' rather than ownership, mitigating typical deception. The ToS includes protective measures unusual for platforms: 60-day notice before shutdown (section 15), DRM-free downloads, fair refund policies (section 6.7), no arbitration clause, and no class-action waiver. However, pervasive 'purchase' framing (section 6 header, section 6.2) creates surface-level opacity for readers who don't reach section 2.1, and broad termination rights remain.",
+  "evidence_quotes": [
+    "We give you and other GOG users the personal right (known legally as a 'licence') to use GOG.com",
+    "You can't sell your GOG content or account. You can gift GOG games or videos.",
+    "if we have to stop providing access to GOG services and GOG content permanently...you should be able to download any GOG content you purchased",
+    "We can stop or suspend this licence in some situations"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/gog_2015",
+    "run": 1
+  }
+}

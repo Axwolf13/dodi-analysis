@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 58,
+  "readability_burden": 65,
+  "aggressive_clauses": 77,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Reddit is explicit in Section 2 that users receive only a 'revocable, limited license,' providing transparency about the fundamental relationship. However, the document obscures what users actually get when they 'purchase' paid services by deferring to separate agreements and using misleading terms like 'Coins' and 'Virtual Goods' that imply ownership. The aggressive unilateral termination clause ('any or no reason'), sweeping liability caps, and broad content seizure rights substantially harm consumers.",
+  "evidence_quotes": [
+    "Reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services",
+    "We may suspend or terminate your Account...at any time for any or no reason, including for violating these Terms or our Content Policy",
+    "some services, including Reddit Premium and Virtual Goods, may be available for purchase...By purchasing or using Reddit Premium or our Virtual Goods, you further agree to the Reddit Premium and Virtual Goods Agreement",
+    "We reserve the right to modify, suspend, or discontinue the Services (in whole or in part) at any time, with or without notice to you",
+    "IN NO EVENT...WILL THE REDDIT ENTITIES BE LIABLE TO YOU FOR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/amazon",
+    "run": 1
+  }
+}

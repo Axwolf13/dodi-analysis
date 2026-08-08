@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 30,
+  "readability_burden": 78,
+  "aggressive_clauses": 68,
+  "overall_deception": 38,
+  "tosdr_style_grade": "D",
+  "rationale": "This is Microsoft's general website Terms of Use rather than a storefront purchase agreement, so it never frames a 'sale' of digital content at all \u2014 ownership deception is present only implicitly, via language that treats all software and documents as licensed, never owned. The bigger problems are readability (dense, all-caps legal blocks) and aggressive unilateral clauses: Microsoft can terminate access, remove content, or change the terms at any time without notice, and takes a broad royalty-free license to anything users post.",
+  "evidence_quotes": [
+    "Microsoft reserves the right to update the TOU at any time without notice to you.",
+    "Microsoft reserves the right to terminate your access to any or all of the Communication Services at any time, without notice, for any reason whatsoever.",
+    "you are granting Microsoft ... the license rights to: copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Submission",
+    "No compensation will be paid with respect to the use of your Submission"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/microsoft",
+    "run": 1
+  }
+}

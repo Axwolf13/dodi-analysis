@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 15,
+  "readability_burden": 55,
+  "aggressive_clauses": 45,
+  "overall_deception": 28,
+  "tosdr_style_grade": "C",
+  "rationale": "This is a free ad-funded service, not a digital-goods storefront, and it states plainly that users retain ownership of their content while granting a broad usage license; the deception here lies less in disguised 'purchases' and more in expansive, non-negotiable rights grants over user content and feedback, and vague, ad-driven data use. Termination and dispute clauses are relatively consumer-protective (EU-influenced good-cause/cure requirements, no forced arbitration), but the feedback and content-license clauses are broad and one-sided.",
+  "evidence_quotes": [
+    "You own the content you create and share on Facebook... nothing in these Terms takes away the rights you have to your own content",
+    "you grant us a non-exclusive, transferable, sub-licensable, and worldwide license to host, use, distribute, modify, run, copy, publicly perform or display, translate, and create derivative works of your content",
+    "we may use them without any restriction, and we are under no obligation to keep them confidential"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/facebook",
+    "run": 1
+  }
+}

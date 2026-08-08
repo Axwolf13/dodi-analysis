@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 56,
+  "aggressive_clauses": 50,
+  "overall_deception": 37,
+  "tosdr_style_grade": "D",
+  "rationale": "Netflix is relatively transparent in the ToS itself about the license model, explicitly stating users receive only a 'limited, non-exclusive, non-transferable right' with 'no right, title or interest' transferred. However, this critical distinction is buried in legal language within section 4.2, making it effectively invisible to ordinary readers. The agreement heavily favors Netflix through unilateral price changes, account termination rights, and extensive content restrictions.",
+  "evidence_quotes": [
+    "we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and Netflix content",
+    "Except for the foregoing, no right, title or interest shall be transferred to you",
+    "Netflix may cancel your account by providing one month prior written notice",
+    "We may at our reasonable discretion change the price of our subscription plans from time to time",
+    "you agree not to archive, reproduce, distribute, modify, display, perform, publish, license, create derivative works"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/netflix_2024",
+    "run": 3
+  }
+}

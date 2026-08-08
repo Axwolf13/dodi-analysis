@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 3,
+  "readability_burden": 42,
+  "aggressive_clauses": 30,
+  "overall_deception": 6,
+  "tosdr_style_grade": "A",
+  "rationale": "This is a nonprofit content-hosting and contribution-licensing agreement, not a sales or subscription contract, so there is no 'buy vs. license' framing to obscure \u2014 the document is unusually explicit that all contributions are freely licensed (CC BY-SA/GFDL) and that Wikimedia merely hosts content it doesn't own. It leads with a plain-language summary, though the full legal text still runs long with disclaimers, a liability cap, and a broad at-will termination clause.",
+  "evidence_quotes": [
+    "We reserve the right to suspend or end the services at any time, with or without cause, and with or without notice.",
+    "In no event shall our liability exceed one thousand U.S. dollars (USD 1000.00) in aggregate.",
+    "This is a human-readable summary of the Terms of Use."
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/wikipedia",
+    "run": 1
+  }
+}

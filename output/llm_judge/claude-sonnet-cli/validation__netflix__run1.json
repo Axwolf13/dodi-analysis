@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 15,
+  "readability_burden": 40,
+  "aggressive_clauses": 35,
+  "overall_deception": 20,
+  "tosdr_style_grade": "C",
+  "rationale": "Netflix markets this consistently as a subscription 'service' for streaming access rather than a purchase, and explicitly discloses that only a limited, non-transferable license is granted with no title transferred, so there is little bait-and-switch on ownership. It loses points for length, dense numbered legalese, a no-refunds policy, broad suspension/termination rights, and a remote-access support clause, though notice periods for price/terms changes are reasonably generous (30 days).",
+  "evidence_quotes": [
+    "we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and view Netflix content. Except for the foregoing, no right, title or interest shall be transferred to you",
+    "Payments are non-refundable and we do not provide refunds or credits for any partial-month membership periods or unwatched Netflix content",
+    "We may terminate or restrict your use of our service if you violate these Terms of Use or are engaged in illegal or fraudulent use of the service"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/netflix",
+    "run": 1
+  }
+}

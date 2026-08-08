@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 68,
+  "readability_burden": 78,
+  "aggressive_clauses": 82,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "This ToS heavily favors Ubisoft through unilateral termination without notice (including for vague 'other reasons'), complete transfer of user-created content rights with no compensation, forced arbitration and class-action waivers, and sweeping liability disclaimers eliminating refunds and damages. While the license model is explicit in the legal text, it likely contrasts with 'purchase' language in marketing, and the revocable nature combined with zero consumer protections creates a particularly harsh agreement.",
+  "evidence_quotes": [
+    "UBISOFT may suspend or close your Account...at any time, automatically and without any judicial formality...for any other reason",
+    "You have no property rights in any achievements, virtual items and/or virtual currency. Any fees paid hereunder are non-refundable",
+    "you hereby grant UBISOFT a royalty-free, fully paid up, perpetual, irrevocable...right and license to use...such Original UGC...for any reason...for commercial or advertising purposes...without compensation",
+    "claims must be brought in the parties' individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/ubisoft_2018",
+    "run": 1
+  }
+}

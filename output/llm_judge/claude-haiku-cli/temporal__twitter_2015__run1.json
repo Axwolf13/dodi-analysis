@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 68,
+  "aggressive_clauses": 72,
+  "overall_deception": 52,
+  "tosdr_style_grade": "D",
+  "rationale": "Twitter's ToS explicitly states 'you own your Content' and clearly labels platform access as a revocable license, providing more clarity than typical digital goods ToS. However, aggressive unilateral termination rights ('for any or no reason'), extreme liability caps ($100 maximum), and broad sublicensing grants create substantial consumer protection gaps. The document's length and legal complexity substantially obscure these unfavorable terms.",
+  "evidence_quotes": [
+    "you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute such Content",
+    "We may suspend or terminate your accounts or cease providing you with all or part of the Services at any time for any or no reason",
+    "IN NO EVENT SHALL THE AGGREGATE LIABILITY OF THE TWITTER ENTITIES EXCEED THE GREATER OF ONE HUNDRED U.S. DOLLARS",
+    "we may stop (permanently or temporarily) providing the Services (or any features within the Services) to you or to users generally...without prior notice"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/twitter_2015",
+    "run": 1
+  }
+}

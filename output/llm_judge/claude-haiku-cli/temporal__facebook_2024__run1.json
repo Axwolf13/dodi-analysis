@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 48,
+  "readability_burden": 68,
+  "aggressive_clauses": 61,
+  "overall_deception": 51,
+  "tosdr_style_grade": "C",
+  "rationale": "Meta's ToS is moderately deceptive about consumer rights, particularly regarding account control and data use. While transparent about the free/ad-supported model, it obscures through unilateral account termination rights, extensive data collection buried in complex language, and asymmetric forum selection that favors Meta in disputes.",
+  "evidence_quotes": [
+    "we may suspend or permanently disable your access to Meta Company Products, and we may permanently disable or delete your account",
+    "you grant us a non-exclusive, transferable, sub-licensable, royalty-free, and worldwide license to host, use, distribute, modify, run, copy, publicly perform or display, translate, and create derivative works of your content",
+    "We use your personal data, such as information about your activity and interests, to show you personalized ads",
+    "you agree that, in its sole discretion, Meta may bring any claim, cause of action, or dispute we have against you in any competent court in the country in which you reside"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/facebook_2024",
+    "run": 1
+  }
+}

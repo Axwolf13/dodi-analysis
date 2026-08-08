@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 72,
+  "aggressive_clauses": 76,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "Steam explicitly states 'The Content and Services are licensed, not sold' with unambiguous ownership disclaimers, preventing high opacity on the license issue itself. However, widespread use of 'purchase' and 'buy' language creates psychological framing of ownership, combined with dense legal structure that obscures these statements. Aggressive clauses\u2014unilateral amendment, termination without notice, binding arbitration, class action waiver\u2014substantially disadvantage consumers despite transparency on the core licensing point.",
+  "evidence_quotes": [
+    "The Content and Services are licensed, not sold. Your license confers no title or ownership in the Content and Services.",
+    "Valve may amend this Agreement (including any Subscription Terms or Rules of Use) unilaterally at any time in its sole discretion.",
+    "you acknowledge that Valve is not required to provide you notice before terminating your Subscriptions(s) and/or Account",
+    "YOU AND VALVE AGREE NOT TO BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ACTION"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/steam_2015",
+    "run": 3
+  }
+}

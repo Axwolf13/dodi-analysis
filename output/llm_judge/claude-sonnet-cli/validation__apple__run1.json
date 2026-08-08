@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 10,
+  "readability_burden": 45,
+  "aggressive_clauses": 60,
+  "overall_deception": 20,
+  "tosdr_style_grade": "C",
+  "rationale": "This is a general website ToS, not a digital-goods storefront, so there's no 'buy vs license' framing to obscure; it even states plainly that site use grants no IP ownership. However, it grants itself an irrevocable, perpetual license to any user-posted content, allows unilateral modification or termination of the service at any time without notice, and disclaims essentially all warranties and liability in dense caps-lock legalese.",
+  "evidence_quotes": [
+    "you grant us, our agents, licensees, and assigns an irrevocable, perpetual (non-exclusive) right and permission to reproduce, encode, store, copy, transmit, publish...",
+    "We reserve the right to modify our Sites at any time, with or without notice to you.",
+    "TO THE EXTENT PERMITTED BY LAW, WE EXCLUDE ALL WARRANTIES."
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "validation/apple",
+    "run": 1
+  }
+}

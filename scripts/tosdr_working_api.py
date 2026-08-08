@@ -58,7 +58,7 @@ def collect_tosdr_grades():
         'Facebook': 182,
         'Google': 217,
         'Amazon': 194,
-        'WhatsApp': 265,
+        'Wikipedia': 265,
         'Twitter': 195,
         'Instagram': 219,
         'Netflix': 185,

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 55,
+  "readability_burden": 75,
+  "aggressive_clauses": 72,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Amazon's ToS uses relatively explicit license language for services and actually acknowledges title transfer for physical items, but ambiguously delegates digital product terms to external Service Terms not shown here. While not maximally opaque about licensing, the document heavily favors Amazon through unilateral termination rights, mandatory binding arbitration with class action waivers, automatic updates without notice, and perpetual content exploitation rights.",
+  "evidence_quotes": [
+    "Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable license to access and make personal and non-commercial use",
+    "Amazon reserves the right to refuse service, terminate accounts, remove or edit content, or cancel orders in its sole discretion",
+    "Any dispute or claim...will be resolved by binding arbitration, rather than in court",
+    "We each agree that any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated or representative action",
+    "you grant Amazon a nonexclusive, royalty-free, perpetual, irrevocable, and fully sublicensable right to use, reproduce, modify, adapt, publish, perform, translate, create derivative works"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/amazon_2015",
+    "run": 1
+  }
+}

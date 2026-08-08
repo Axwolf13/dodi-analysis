@@ -1,0 +1,21 @@
+{
+  "ownership_opacity": 68,
+  "readability_burden": 78,
+  "aggressive_clauses": 82,
+  "overall_deception": 70,
+  "tosdr_style_grade": "D",
+  "rationale": "Microsoft explicitly states digital goods and software are 'licensed, not sold' in legal sections, but the document extensively uses 'purchase,' 'buy,' and 'acquire' terminology throughout Payment Terms and marketing language, creating confusion about ownership. The extreme length (14,268 words, 55-minute read) with complex legal vocabulary makes these licensing restrictions difficult for ordinary consumers to locate and understand. Compounding this are highly aggressive terms: binding arbitration, blanket class action waiver, liability caps as low as $10, warranty disclaimers, and Microsoft's unilateral right to remove purchased digital goods without notice or replacement.",
+  "evidence_quotes": [
+    "The software is licensed, not sold, and Microsoft reserves all rights to the software not expressly granted by Microsoft",
+    "Microsoft or the owners of the Digital Goods may, from time to time, remove Digital Goods from the Services without notice",
+    "you may lose access to products you've acquired",
+    "Class action lawsuits, class-wide arbitrations...aren't allowed",
+    "your exclusive remedy is to recover...direct damages up to an amount equal to your Services fee for the month...or up to $10.00 if the Services are free",
+    "all purchases are final and non-refundable"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/microsoft_2024",
+    "run": 1
+  }
+}

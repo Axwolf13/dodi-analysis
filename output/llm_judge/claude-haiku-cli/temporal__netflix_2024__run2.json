@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 55,
+  "readability_burden": 65,
+  "aggressive_clauses": 50,
+  "overall_deception": 55,
+  "tosdr_style_grade": "C",
+  "rationale": "Netflix's ToS explicitly discloses the limited license model in section 4.2, stating 'no right, title or interest shall be transferred to you,' which is honest transparency. However, the entire document frames the transaction as 'membership' and 'access rights' rather than purchase, obscuring the transactional nature. Unilateral termination and price-change clauses (with 30-day notice) are concerning but not extreme, and notably lacks explicit arbitration or class-action waivers found in more aggressive terms.",
+  "evidence_quotes": [
+    "During your Netflix membership we grant you a limited, non-exclusive, non-transferable right to access the Netflix service and Netflix content. Except for the foregoing, no right, title or interest shall be transferred to you.",
+    "Netflix may cancel your account by providing one month prior written notice. The cancellation will take effect at the end of your running billing period.",
+    "Any price changes will apply no earlier than 30 days following notice to you."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/netflix_2024",
+    "run": 2
+  }
+}

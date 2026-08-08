@@ -1,0 +1,21 @@
+{
+  "ownership_opacity": 50,
+  "readability_burden": 68,
+  "aggressive_clauses": 72,
+  "overall_deception": 60,
+  "tosdr_style_grade": "C",
+  "rationale": "While the document explicitly states Spotify retains ownership and grants only a 'revocable licence,' it obscures the practical implications through legal complexity. The most aggressive elements are the mandatory arbitration clause (US users) with class action waiver, unilateral termination rights, persistent no-refund policy, and unlimited content modification without notice.",
+  "evidence_quotes": [
+    "The Spotify software applications are licensed, not sold, to you",
+    "we grant you a limited, non-exclusive, revocable licence",
+    "Spotify may terminate the Terms or suspend your access at any time",
+    "Spotify will not refund any amounts that you have already paid",
+    "Spotify reserves the right to modify or discontinue functions and features with or without notice",
+    "YOU AND SPOTIFY AGREE THAT EACH MAY BRING CLAIMS ONLY IN INDIVIDUAL CAPACITY, AND NOT AS A CLASS MEMBER"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/spotify_2015",
+    "run": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 58,
+  "readability_burden": 48,
+  "aggressive_clauses": 72,
+  "overall_deception": 62,
+  "tosdr_style_grade": "D",
+  "rationale": "Reddit explicitly describes access as a revocable license rather than ownership, which is transparent in the legal text. However, the \"purchase\" language in Section 9 for Paid Services creates ambiguity about what consumers actually own, and the severity of consumer-unfavorable clauses\u2014particularly termination \"for any or no reason\" and perpetual irrevocable content licensing\u2014makes this notably problematic for users.",
+  "evidence_quotes": [
+    "personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services",
+    "We may suspend or terminate your Account, moderator status, or ability to access or use the Services at any time for any or no reason",
+    "worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works of... Your Content",
+    "AGGREGATE LIABILITY OF THE REDDIT ENTITIES EXCEED THE GREATER OF ONE HUNDRED U.S. DOLLARS ($100)",
+    "modify, suspend, or discontinue the Services (in whole or in part) at any time, with or without notice to you"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/reddit",
+    "run": 1
+  }
+}

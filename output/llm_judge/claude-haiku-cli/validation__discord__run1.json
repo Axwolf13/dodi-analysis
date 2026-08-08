@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 65,
+  "readability_burden": 68,
+  "aggressive_clauses": 76,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "Discord markets subscriptions and virtual goods using 'buy' and 'purchase' language while legally defining everything as revocable licenses. Virtual goods are explicitly stated as non-owned, but subscriptions rely on readers understanding 'subscription' implies revocability\u2014a dangerous assumption when combined with aggressive auto-renewal and unilateral termination without refund.",
+  "evidence_quotes": [
+    "You do not own, or have any other right, title, or other proprietary interest in these virtual goods, regardless of any consideration offered or paid in exchange.",
+    "UNLESS YOU NOTIFY US OF YOUR DESIRE TO CANCEL YOUR SUBSCRIPTION... YOUR SUBSCRIPTION WILL AUTOMATICALLY CONTINUE AND YOU AUTHORIZE US TO AUTOMATICALLY CHARGE YOUR PAYMENT METHOD",
+    "Your subscription may also be terminated, in Discord's sole discretion, if you violate the Discord Terms of Service",
+    "If your Discord account is terminated, you will not be entitled to a refund for any unused portion of your subscription.",
+    "If you reside in the European Union and seek to purchase paid services on Discord, you will be presented with a waiver to your right to cancel your subscription or purchase."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/discord",
+    "run": 1
+  }
+}

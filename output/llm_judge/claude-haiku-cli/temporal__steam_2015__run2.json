@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 70,
+  "readability_burden": 68,
+  "aggressive_clauses": 78,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "Steam's terms explicitly state 'licensed, not sold,' providing surface transparency about revocability. However, this is undermined by unilateral termination without notice, binding arbitration with class action waiver that prevents collective recourse, and the massive gap between purchase-language marketing and license-only ToS. The combination of aggressive clauses and user expectation mismatch creates substantial deception despite explicit licensing language.",
+  "evidence_quotes": [
+    "The Content and Services are licensed, not sold. Your license confers no title or ownership in the Content and Services.",
+    "Valve may terminate your Account or any particular Subscription(s) at any time...You acknowledge that Valve is not required to provide you notice before terminating",
+    "YOU AND VALVE AGREE NOT TO BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ACTION",
+    "you grant Valve and its affiliates the worldwide, non-exclusive, right to use, reproduce, modify, create derivative works from, distribute...your User Generated Content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/steam_2015",
+    "run": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 10,
+  "readability_burden": 51,
+  "aggressive_clauses": 41,
+  "overall_deception": 6,
+  "tosdr_style_grade": "B",
+  "rationale": "This document is unusually transparent about licensing: it explicitly frames all contributions as licenses (CC BY-SA, GFDL), never disguises ownership as purchase, and clearly states users never own their content. However, termination without cause/notice is severe, and legal vocabulary combined with length moderately burdens ordinary readers. The absence of arbitration and class-action waivers is notably user-friendly compared to commercial platforms.",
+  "evidence_quotes": [
+    "You License Freely Your Contributions \u2013 you generally must license your contributions and edits to our sites or Projects under a free and open license",
+    "all users contributing to the Projects are required to grant broad permissions to the general public to re-distribute and re-use their contributions freely",
+    "No revocation of license: Except as consistent with your license, you agree that you will not unilaterally revoke or seek invalidation of any license that you have granted",
+    "We reserve the right to suspend or end the services at any time, with or without cause, and with or without notice"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/wikipedia",
+    "run": 1
+  }
+}

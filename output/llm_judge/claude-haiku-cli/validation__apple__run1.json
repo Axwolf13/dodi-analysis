@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 30,
+  "readability_burden": 60,
+  "aggressive_clauses": 75,
+  "overall_deception": 55,
+  "tosdr_style_grade": "D",
+  "rationale": "This website Terms of Service is relatively transparent about digital content ownership (users retain ownership of posted content), but deploys aggressive liability exclusions, broad warranty disclaimers, and sweeping unilateral modification rights that heavily favor Salesforce. The document's readability is hindered by multiple all-caps sections and dense legal language, making it harder for ordinary consumers to grasp the full implications of their agreement.",
+  "evidence_quotes": [
+    "We reserve the right to modify our Sites at any time, with or without notice to you.",
+    "WE EXCLUDE ALL WARRANTIES.",
+    "EXCEPT WHERE PROHIBITED, THE SERVICES ENTITIES SHALL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES",
+    "You agree to indemnify, release, and hold us harmless from any all liability, claims, actions, loss, harm, damage, injury, cost or expense arising out of any Content you post."
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/apple",
+    "run": 1
+  }
+}

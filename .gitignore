@@ -6,3 +6,6 @@ data/gaming/
 data/software/
 data/streaming/
 data/tosdr_corpus/
+
+# API key for the LLM-judge scripts
+.env

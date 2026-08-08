@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 68,
+  "readability_burden": 77,
+  "aggressive_clauses": 84,
+  "overall_deception": 71,
+  "tosdr_style_grade": "D",
+  "rationale": "Ubisoft uses consumer-friendly language ('buy,' 'purchase') throughout while burying disclaimers that grant only revocable licenses with zero property rights. The document is heavily one-sided: account termination without notice for any reason, unilateral right to delete all content/currency without refund, unilateral ToS modifications, and mandatory individual arbitration with class action waiver. Dense legal language and scattered ownership disclaimers ensure most consumers won't understand they own nothing and can lose everything instantly.",
+  "evidence_quotes": [
+    "You have no property rights in any achievements, virtual items and/or virtual currency. Any fees paid hereunder are non-refundable.",
+    "These Terms may be terminated or suspended at any time, without notice, for any reason, including without limitation due to violations of the Code of Conduct.",
+    "We may cancel access to ONE OR MORE ONLINE FUNCTIONS...AT ANY TIME AND FOR ANY REASON WITH OR WITHOUT NOTICE",
+    "all achievements, virtual items and/or virtual currency that You have acquired may, in our sole discretion, be terminated or forfeited",
+    "claims must be brought in the parties' individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/ubisoft_2024",
+    "run": 1
+  }
+}

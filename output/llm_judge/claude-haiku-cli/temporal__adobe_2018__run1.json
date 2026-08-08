@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 55,
+  "readability_burden": 75,
+  "aggressive_clauses": 70,
+  "overall_deception": 55,
+  "tosdr_style_grade": "D",
+  "rationale": "Adobe explicitly frames services as 'licensed, not sold' (1.2), but this critical distinction is buried in dense legal language after an opening paragraph emphasizing content ownership, creating moderate deception. Multiple aggressive provisions\u2014forced individual arbitration (15.3), unilateral termination at will (11.2), automatic content deletion after 30 days (3.3), and broad liability disclaimers\u2014significantly worsen the consumer position.",
+  "evidence_quotes": [
+    "Our Services and Software are licensed, not sold, to you",
+    "we may, at any time, terminate your right to use and access the Services or Software if",
+    "At the end of this 30-day transition period, we reserve the right to delete your Content",
+    "You may only resolve disputes with us on an individual basis, and you may not bring a claim as a plaintiff or a class member",
+    "the Services and Software are provided 'AS-IS'"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/adobe_2018",
+    "run": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 52,
+  "readability_burden": 72,
+  "aggressive_clauses": 73,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Amazon explicitly frames service access as a limited, non-transferable license rather than ownership, but conflates this with consumer 'purchase' language throughout. Defers digital product specifics to opaque Service Terms. The document layers aggressive unilateral rights (termination, liability waivers, perpetual user-content licensing) atop complex legal language, making it burdensome for ordinary readers to spot what they don't actually own.",
+  "evidence_quotes": [
+    "limited, non-exclusive, non-transferable, non-sublicensable license to access and make personal and non-commercial use",
+    "TO THE FULL EXTENT PERMISSIBLE BY LAW, AMAZON WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND",
+    "Amazon reserves the right to refuse service, terminate accounts, terminate your rights to use Amazon Services, remove or edit content, or cancel orders in its sole discretion",
+    "you grant Amazon a nonexclusive, royalty-free, perpetual, irrevocable, and fully sublicensable right to use, reproduce, modify, adapt, publish, perform, translate, create derivative works from, distribute, and display such content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/amazon_2024",
+    "run": 1
+  }
+}

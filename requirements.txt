@@ -5,3 +5,6 @@ scipy
 matplotlib
 seaborn
 requests
+anthropic
+tabulate
+mcp

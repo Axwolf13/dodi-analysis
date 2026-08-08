@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 65,
+  "readability_burden": 68,
+  "aggressive_clauses": 60,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "Facebook falsely claims users 'own' their content while granting itself an expansive, transferable, sub-licensable right to modify, create derivatives, and persist copies indefinitely\u2014rendering ownership meaningless. Add unilateral account termination, severe liability caps, and mandatory California jurisdiction, and the deception becomes systematic.",
+  "evidence_quotes": [
+    "You own the content you create and share on Facebook...you grant us a non-exclusive, transferable, sub-licensable, royalty-free, and worldwide license to...modify, run, copy...translate, and create derivative works",
+    "If we determine that you have violated our terms or policies, we may take action against your account...including by suspending access to your account or disabling it",
+    "we will not be liable to you for any lost profits, revenues, information, or data, or consequential, special, indirect, exemplary, punitive, or incidental damages"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/facebook_2018",
+    "run": 1
+  }
+}

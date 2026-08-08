@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 72,
+  "aggressive_clauses": 62,
+  "overall_deception": 48,
+  "tosdr_style_grade": "C",
+  "rationale": "Adobe is relatively transparent about the licensing model, explicitly stating 'licensed, not sold' and distinguishing user-owned content from licensed software. However, mandatory arbitration, class action waivers, unilateral termination rights, and automatic content deletion after 30 days create significant consumer disadvantages. The document's length and legal complexity impose substantial readability burden despite provided summaries.",
+  "evidence_quotes": [
+    "Our Services and Software are licensed, not sold, to you",
+    "we may at any time immediately terminate or suspend your right to use and access the Services and Software if in Adobe's sole discretion",
+    "You may only resolve disputes with us on an individual basis, and you may not bring a claim as a plaintiff or a class member",
+    "At the end of this 30-day transition period, we reserve the right to delete your Content"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/adobe_2024",
+    "run": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 72,
+  "aggressive_clauses": 78,
+  "overall_deception": 48,
+  "tosdr_style_grade": "D",
+  "rationale": "Amazon's ToS explicitly uses the word 'license' repeatedly and clearly states non-exclusive, non-transferable, non-sublicensable restrictions in a dedicated section\u2014technically transparent but obscured by dense legal jargon that obscures practical implications (no resale, revocation possible, zero ownership). Beyond ownership framing, the document is highly consumer-hostile with binding arbitration, class action waiver, unilateral termination at sole discretion, and sweeping liability waivers.",
+  "evidence_quotes": [
+    "Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable license to access and make personal and non-commercial use",
+    "Amazon reserves the right to refuse service, terminate accounts, terminate your rights to use Amazon Services...in its sole discretion",
+    "Any dispute or claim...will be resolved by binding arbitration, rather than in court",
+    "We each agree that any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated or representative action",
+    "The licenses granted by Amazon terminate if you do not comply with these Conditions of Use"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/amazon_2018",
+    "run": 1
+  }
+}

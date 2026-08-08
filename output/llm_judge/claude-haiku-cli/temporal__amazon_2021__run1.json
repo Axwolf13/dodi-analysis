@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 60,
+  "readability_burden": 68,
+  "aggressive_clauses": 72,
+  "overall_deception": 64,
+  "tosdr_style_grade": "D",
+  "rationale": "Amazon explicitly states transactions grant limited, non-transferable, revocable licenses\u2014technically transparent but exploiting the gap between 'buy' marketing and licensing fine print without consumer explanation. The terms include blanket warranty disclaimers, unlimited liability limits, unilateral termination rights, and jury trial waivers, all heavily favoring Amazon.",
+  "evidence_quotes": [
+    "grant you a limited, non-exclusive, non-transferable, non-sublicensable license",
+    "The licenses granted by Amazon terminate if you do not comply with these Conditions of Use",
+    "AMAZON MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED",
+    "Amazon reserves the right to refuse service, terminate accounts in its sole discretion",
+    "We each waive any right to a jury trial"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/amazon_2021",
+    "run": 1
+  }
+}

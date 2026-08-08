@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 68,
+  "aggressive_clauses": 76,
+  "overall_deception": 64,
+  "tosdr_style_grade": "D",
+  "rationale": "While the document transparently discloses that access is a revocable license (not ownership), it masks significant consumer harms: unilateral termination \"for any or no reason,\" a $100 liability cap, and broad exploitation of user content with sublicensing rights globally and zero compensation. The aggressive terms are buried in dense legal prose that obscures their impact.",
+  "evidence_quotes": [
+    "We may suspend or terminate your account or cease providing you with all or part of the Services at any time for any or no reason",
+    "Twitter gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you as part of the Services",
+    "Such additional uses by Twitter, or other companies, organizations or individuals, is made with no compensation paid to you",
+    "IN NO EVENT SHALL THE AGGREGATE LIABILITY OF THE TWITTER ENTITIES EXCEED THE GREATER OF ONE HUNDRED U.S. DOLLARS",
+    "What's yours is yours \u2014 you own your Content [followed immediately by grant of worldwide sublicensable rights to modify and redistribute]"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/twitter_2021",
+    "run": 1
+  }
+}

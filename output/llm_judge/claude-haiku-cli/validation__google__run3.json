@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 58,
+  "readability_burden": 45,
+  "aggressive_clauses": 62,
+  "overall_deception": 52,
+  "tosdr_style_grade": "C",
+  "rationale": "Google's ToS is reasonably transparent about licensing software and user content rights, with better-than-average plain language and organization. However, it structurally obscures the critical question of digital purchase ownership by deferring those terms elsewhere, uses \"permission\" and \"license\" language throughout, and includes broad unilateral termination rights and content usage grants that significantly favor the platform.",
+  "evidence_quotes": [
+    "We give you permission to use that software as part of the services",
+    "Google reserves the right to suspend or terminate your access to the services or delete your Google Account if any of these things happen",
+    "The only commitments we make about our services are (1) described in the Warranty section, (2) stated in the service-specific additional terms, or (3) provided under applicable law",
+    "modify your content, such as reformatting or translating it\" and \"sublicense these rights to our contractors",
+    "Your content remains yours, which means that you retain any intellectual property rights that you have in your content\" [limited to user-generated content only]"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/google",
+    "run": 3
+  }
+}

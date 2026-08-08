@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 42,
+  "readability_burden": 62,
+  "aggressive_clauses": 68,
+  "overall_deception": 58,
+  "tosdr_style_grade": "C",
+  "rationale": "Netflix's ToS is relatively transparent about granting only a revocable license (explicitly stating \"no rights, titles, or interests are transferred to you\"), which limits ownership_opacity. However, the combination of no-refund policies, broad unilateral termination rights, extensive use restrictions, and automatic renewal creates significant consumer detriment. The document is moderately hard to read with dense legal language and long sentences, particularly in section 4.5.",
+  "evidence_quotes": [
+    "we grant you a limited, non-exclusive, and non-transferable license to access the Netflix service... no rights, titles, or interests are transferred to you",
+    "We do not offer refunds or credits for unused months or unwatched movies or TV shows",
+    "If you violate these Terms of Service or use the service in an illegal or abusive manner, we are authorized to terminate or restrict your use of our service"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/netflix_2015",
+    "run": 1
+  }
+}

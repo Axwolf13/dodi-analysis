@@ -1,0 +1,153 @@
+﻿Corpus: 52 documents
+
+============================================================
+Run 1: claude-haiku-cli on all 52 documents
+============================================================
+  temporal/adobe_2015: deception  56, grade D (fresh)
+  temporal/adobe_2018: deception  55, grade D (fresh)
+  temporal/adobe_2021: deception  58, grade D (fresh)
+  temporal/adobe_2024: deception  44, grade C (fresh)
+  temporal/amazon_2015: deception  58, grade D (fresh)
+  temporal/amazon_2018: deception  48, grade D (fresh)
+  temporal/amazon_2021: deception  64, grade D (fresh)
+  temporal/amazon_2024: deception  58, grade D (fresh)
+  temporal/facebook_2015: deception  56, grade D (fresh)
+  temporal/facebook_2018: deception  68, grade D (fresh)
+  temporal/facebook_2021: deception  60, grade D (fresh)
+  temporal/facebook_2024: deception  51, grade C (fresh)
+  temporal/gog_2015: deception  33, grade B (cached)
+  temporal/gog_2018: deception  40, grade B (fresh)
+  temporal/gog_2021: deception  55, grade C (fresh)
+  temporal/gog_2024: deception  28, grade B (fresh)
+  retry temporal/microsoft_2015 in 20s (JSONDecodeError)
+  temporal/microsoft_2015: deception  68, grade D (fresh)
+  temporal/microsoft_2018: deception  68, grade D (fresh)
+  temporal/microsoft_2021: deception  68, grade D (fresh)
+  temporal/microsoft_2024: deception  70, grade D (fresh)
+  temporal/netflix_2015: deception  58, grade C (fresh)
+  temporal/netflix_2018: deception  44, grade C (fresh)
+  temporal/netflix_2021: deception  51, grade D (fresh)
+  temporal/netflix_2024: deception  38, grade C (fresh)
+  temporal/spotify_2015: deception  60, grade C (fresh)
+  temporal/spotify_2018: deception  58, grade D (fresh)
+  temporal/spotify_2021: deception  58, grade D (fresh)
+  temporal/spotify_2024: deception  70, grade D (fresh)
+  temporal/steam_2015: deception  62, grade D (fresh)
+  temporal/steam_2018: deception  50, grade D (fresh)
+  temporal/steam_2021: deception  54, grade D (fresh)
+  temporal/steam_2024: deception  68, grade E (fresh)
+  temporal/twitter_2015: deception  52, grade D (fresh)
+  temporal/twitter_2018: deception  58, grade D (fresh)
+  temporal/twitter_2021: deception  64, grade D (fresh)
+  temporal/twitter_2024: deception  62, grade D (fresh)
+  temporal/ubisoft_2015: deception  63, grade E (fresh)
+  retry temporal/ubisoft_2018 in 20s (RuntimeError)
+  retry temporal/ubisoft_2018 in 40s (RuntimeError)
+  ❌ temporal/ubisoft_2018: RuntimeError: claude CLI failed: 
+  retry temporal/ubisoft_2021 in 20s (RuntimeError)
+  retry temporal/ubisoft_2021 in 40s (RuntimeError)
+  ❌ temporal/ubisoft_2021: RuntimeError: claude CLI failed: 
+  retry temporal/ubisoft_2024 in 20s (RuntimeError)
+  retry temporal/ubisoft_2024 in 40s (RuntimeError)
+  ❌ temporal/ubisoft_2024: RuntimeError: claude CLI failed: 
+  retry validation/amazon in 20s (RuntimeError)
+  retry validation/amazon in 40s (RuntimeError)
+  ❌ validation/amazon: RuntimeError: claude CLI failed: 
+  retry validation/apple in 20s (RuntimeError)
+  retry validation/apple in 40s (RuntimeError)
+  ❌ validation/apple: RuntimeError: claude CLI failed: 
+  retry validation/discord in 20s (RuntimeError)
+  retry validation/discord in 40s (RuntimeError)
+  ❌ validation/discord: RuntimeError: claude CLI failed: 
+  retry validation/facebook in 20s (RuntimeError)
+  retry validation/facebook in 40s (RuntimeError)
+  ❌ validation/facebook: RuntimeError: claude CLI failed: 
+  retry validation/google in 20s (RuntimeError)
+  retry validation/google in 40s (RuntimeError)
+  ❌ validation/google: RuntimeError: claude CLI failed: 
+  retry validation/instagram in 20s (RuntimeError)
+  retry validation/instagram in 40s (RuntimeError)
+  ❌ validation/instagram: RuntimeError: claude CLI failed: 
+  retry validation/microsoft in 20s (RuntimeError)
+  retry validation/microsoft in 40s (RuntimeError)
+  ❌ validation/microsoft: RuntimeError: claude CLI failed: 
+  retry validation/netflix in 20s (RuntimeError)
+  retry validation/netflix in 40s (RuntimeError)
+  ❌ validation/netflix: RuntimeError: claude CLI failed: 
+  retry validation/reddit in 20s (RuntimeError)
+  retry validation/reddit in 40s (RuntimeError)
+  ❌ validation/reddit: RuntimeError: claude CLI failed: 
+  retry validation/twitter in 20s (RuntimeError)
+  retry validation/twitter in 40s (RuntimeError)
+  ❌ validation/twitter: RuntimeError: claude CLI failed: 
+  retry validation/whatsapp in 20s (RuntimeError)
+  retry validation/whatsapp in 40s (RuntimeError)
+  ❌ validation/whatsapp: RuntimeError: claude CLI failed: 
+  retry validation/youtube in 20s (RuntimeError)
+  retry validation/youtube in 40s (RuntimeError)
+  ❌ validation/youtube: RuntimeError: claude CLI failed: 
+
+============================================================
+Run 2: claude-haiku-cli consistency repeat on 10 documents
+============================================================
+  retry temporal/adobe_2024 in 20s (RuntimeError)
+  retry temporal/adobe_2024 in 40s (RuntimeError)
+  ❌ temporal/adobe_2024: RuntimeError: claude CLI failed: 
+  retry temporal/gog_2015 in 20s (RuntimeError)
+  retry temporal/gog_2015 in 40s (RuntimeError)
+  ❌ temporal/gog_2015: RuntimeError: claude CLI failed: 
+  retry temporal/gog_2024 in 20s (RuntimeError)
+  retry temporal/gog_2024 in 40s (RuntimeError)
+  ❌ temporal/gog_2024: RuntimeError: claude CLI failed: 
+  retry temporal/netflix_2024 in 20s (RuntimeError)
+  retry temporal/netflix_2024 in 40s (RuntimeError)
+  ❌ temporal/netflix_2024: RuntimeError: claude CLI failed: 
+  retry temporal/steam_2015 in 20s (RuntimeError)
+  retry temporal/steam_2015 in 40s (RuntimeError)
+  ❌ temporal/steam_2015: RuntimeError: claude CLI failed: 
+  retry temporal/twitter_2021 in 20s (RuntimeError)
+  retry temporal/twitter_2021 in 40s (RuntimeError)
+  ❌ temporal/twitter_2021: RuntimeError: claude CLI failed: 
+  retry validation/google in 20s (RuntimeError)
+  retry validation/google in 40s (RuntimeError)
+  ❌ validation/google: RuntimeError: claude CLI failed: 
+  retry validation/netflix in 20s (RuntimeError)
+  retry validation/netflix in 40s (RuntimeError)
+  ❌ validation/netflix: RuntimeError: claude CLI failed: 
+  retry validation/reddit in 20s (RuntimeError)
+  retry validation/reddit in 40s (RuntimeError)
+  ❌ validation/reddit: RuntimeError: claude CLI failed: 
+  retry validation/whatsapp in 20s (RuntimeError)
+  retry validation/whatsapp in 40s (RuntimeError)
+  ❌ validation/whatsapp: RuntimeError: claude CLI failed: 
+
+============================================================
+Run 3: claude-haiku-cli consistency repeat on 10 documents
+============================================================
+  retry temporal/adobe_2024 in 20s (RuntimeError)
+  retry temporal/adobe_2024 in 40s (RuntimeError)
+  ❌ temporal/adobe_2024: RuntimeError: claude CLI failed: 
+  retry temporal/gog_2015 in 20s (RuntimeError)
+  retry temporal/gog_2015 in 40s (RuntimeError)
+  ❌ temporal/gog_2015: RuntimeError: claude CLI failed: 
+  retry temporal/gog_2024 in 20s (RuntimeError)
+  retry temporal/gog_2024 in 40s (RuntimeError)
+  ❌ temporal/gog_2024: RuntimeError: claude CLI failed: 
+  retry temporal/netflix_2024 in 20s (RuntimeError)
+  retry temporal/netflix_2024 in 40s (RuntimeError)
+  ❌ temporal/netflix_2024: RuntimeError: claude CLI failed: 
+  retry temporal/steam_2015 in 20s (RuntimeError)
+  retry temporal/steam_2015 in 40s (RuntimeError)
+  ❌ temporal/steam_2015: RuntimeError: claude CLI failed: 
+  retry temporal/twitter_2021 in 20s (RuntimeError)
+  retry temporal/twitter_2021 in 40s (RuntimeError)
+  ❌ temporal/twitter_2021: RuntimeError: claude CLI failed: 
+  retry validation/google in 20s (RuntimeError)
+  retry validation/google in 40s (RuntimeError)
+  ❌ validation/google: RuntimeError: claude CLI failed: 
+  retry validation/netflix in 20s (RuntimeError)
+  retry validation/netflix in 40s (RuntimeError)
+  ❌ validation/netflix: RuntimeError: claude CLI failed: 
+  retry validation/reddit in 20s (RuntimeError)
+  retry validation/reddit in 40s (RuntimeError)
+  ❌ validation/reddit: RuntimeError: claude CLI failed: 

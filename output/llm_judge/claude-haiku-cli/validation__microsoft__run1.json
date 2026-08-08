@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 42,
+  "readability_burden": 70,
+  "aggressive_clauses": 73,
+  "overall_deception": 48,
+  "tosdr_style_grade": "D",
+  "rationale": "This document is relatively transparent about software being licensed rather than owned, consistently referring to License Agreements and licensing terms. However, it compensates with extremely aggressive unilateral termination rights without notice, sweeping liability waivers, and heavy legal language that creates substantial readability barriers for ordinary consumers.",
+  "evidence_quotes": [
+    "Use of the Software is governed by the terms of the end user license agreement, if any, which accompanies or is included with the Software",
+    "Microsoft reserves the right to terminate your access to any or all of the Communication Services at any time, without notice, for any reason whatsoever",
+    "Microsoft reserves the right to update the TOU at any time without notice to you",
+    "IN NO EVENT SHALL MICROSOFT AND/OR ITS RESPECTIVE SUPPLIERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS",
+    "you are granting Microsoft...permission to use your Submission in connection with the operation of their Internet businesses...including, without limitation, all Microsoft Services"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/microsoft",
+    "run": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ownership_opacity": 55,
+  "readability_burden": 73,
+  "aggressive_clauses": 75,
+  "overall_deception": 58,
+  "tosdr_style_grade": "D",
+  "rationale": "Spotify explicitly states in Section 5 that content is 'not sold or transferred' and grants only 'limited, non-exclusive, revocable permission,' but this transparency is undercut by marketing language using 'purchase' and buried within a 25-section, 15,000+ word document. Aggressive terms\u2014unilateral termination with no refunds, class action waiver, mandatory arbitration, and broad content removal rights\u2014substantially favor Spotify and limit consumer recourse.",
+  "evidence_quotes": [
+    "The Spotify software applications and the Content are not sold or transferred to you...Spotify and its licensors retain ownership of all copies",
+    "We grant you limited, non-exclusive, revocable permission to make use of the Spotify Service",
+    "Spotify may terminate the Agreements or suspend your access to the Spotify Service at any time, including in the event of your actual or suspected unauthorized use",
+    "Spotify will not refund any amounts that you have already paid, to the fullest extent permitted under applicable law",
+    "YOU AND SPOTIFY AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE ACTION"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/spotify_2021",
+    "run": 1
+  }
+}

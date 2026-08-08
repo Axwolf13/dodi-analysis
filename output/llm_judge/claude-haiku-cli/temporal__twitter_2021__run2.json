@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 60,
+  "readability_burden": 70,
+  "aggressive_clauses": 82,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "Twitter is unusually transparent that users receive a revocable license rather than ownership\u2014explicitly stated in section 'Your License to Use the Services.' However, the deception lies in aggressive unilateral termination rights ('for any or no reason'), extraordinarily broad content exploitation with no compensation, and severe liability waivers that bury material harms beneath legal language. Users understand they're getting a license but not that they can lose all access arbitrarily.",
+  "evidence_quotes": [
+    "We may suspend or terminate your account or cease providing you with all or part of the Services at any time for any or no reason",
+    "Twitter gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software",
+    "you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute such Content",
+    "THE TWITTER ENTITIES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/twitter_2021",
+    "run": 2
+  }
+}

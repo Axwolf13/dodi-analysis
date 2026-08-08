@@ -1,0 +1,19 @@
+{
+  "ownership_opacity": 38,
+  "readability_burden": 48,
+  "aggressive_clauses": 52,
+  "overall_deception": 38,
+  "tosdr_style_grade": "C",
+  "rationale": "Google's ToS is relatively transparent that services are provided under license rather than ownership, consistently using 'permission' language. However, unilateral termination rights, broad content usage grants, and strict liability caps (especially for businesses) create unfavorable terms. The document balances some concerns with appeals processes, local court jurisdiction for EEA users, and explicit user content ownership retention.",
+  "evidence_quotes": [
+    "we give you permission to use our services",
+    "Google reserves the right to suspend or terminate your access to the services or delete your Google Account",
+    "Your content remains yours, which means that you retain any intellectual property rights that you have in your content",
+    "Google's total liability arising out of or relating to these terms is limited to the greater of (1) \u20ac500 or (2) 125% of the fees"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "validation/google",
+    "run": 2
+  }
+}

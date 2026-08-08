@@ -1,0 +1,21 @@
+{
+  "ownership_opacity": 65,
+  "readability_burden": 75,
+  "aggressive_clauses": 80,
+  "overall_deception": 68,
+  "tosdr_style_grade": "D",
+  "rationale": "Ubisoft explicitly frames all transactions as revocable licenses with no ownership rights, yet uses casual 'buy/purchase' language that obscures this reality for casual readers. The document combines relatively clear non-ownership terms with aggressive unilateral termination (without notice), mandatory arbitration, class-action waivers, and broad content ownership claims that strongly disadvantage consumers.",
+  "evidence_quotes": [
+    "We grant You a personal, non-exclusive, non-transferable, limited right to use our Services strictly as detailed herein",
+    "We may cancel access to one or more online functions connected to one or more services at any time and for any reason with or without notice to you",
+    "You have no property rights in any achievements, virtual items and/or virtual currency",
+    "You waive any right to participate as a member of a class in a class action or similar proceeding",
+    "These Terms may be terminated or suspended at any time, without notice, for any reason",
+    "You hereby irrevocably assign to UBISOFT, with full title guarantee, free of charge, all Intellectual Property Rights relating to Derived UGC"
+  ],
+  "_meta": {
+    "model": "claude-haiku-cli",
+    "doc_id": "temporal/ubisoft_2021",
+    "run": 1
+  }
+}
