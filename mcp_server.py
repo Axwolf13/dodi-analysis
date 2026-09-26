@@ -19,6 +19,8 @@ import sys
 from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
+from starlette.requests import Request
+from starlette.responses import JSONResponse
 
 REPO_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
@@ -38,6 +40,14 @@ mcp = FastMCP(
 )
 analyzer = DODIAnalyzer()
 
+
+
+# Plain HTTP endpoint outside the protocol, for uptime pings. Render's free tier
+# sleeps after 15 idle minutes and a cold start can outlast an agent's tool-call
+# timeout, so a pinger keeps it warm. Only served in HTTP mode.
+@mcp.custom_route("/health", methods=["GET"])
+async def health(request: Request) -> JSONResponse:
+    return JSONResponse({"status": "ok", "server": "dodi"})
 
 def interpret(score):
     if score < 30:
