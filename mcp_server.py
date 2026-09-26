@@ -2,13 +2,19 @@
 DODI as an MCP server: lets any MCP client (Claude Code, Claude Desktop)
 score Terms of Service documents with the deterministic DODI index.
 
-Register with Claude Code from the repo root:
-    claude mcp add dodi -- python mcp_server.py
+Two transports:
+  stdio (default), for local clients. Register with Claude Code:
+      claude mcp add dodi -- python mcp_server.py
+  Streamable HTTP, for remote clients such as Copilot Studio:
+      python mcp_server.py --http          # serves http://0.0.0.0:8000/mcp
+  HTTP mode also switches on when a PORT variable is set, which is how
+  hosts like Render pass the port, so a deploy needs no extra flag.
 
 The scorer itself is unchanged from scripts/dodi_analyzer_clean.py; this file
 only exposes it over the protocol, plus read access to the study's results.
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -18,7 +24,18 @@ REPO_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from dodi_analyzer_clean import DODIAnalyzer
 
-mcp = FastMCP("dodi")
+HTTP_MODE = "--http" in sys.argv or "PORT" in os.environ
+
+# Bound to 0.0.0.0 in HTTP mode so remote clients can connect. The SDK only
+# enables its localhost-only DNS-rebinding check when bound to 127.0.0.1, which
+# would reject requests arriving through a tunnel or a cloud host.
+# Stateless: every request stands alone, so any server instance can answer it.
+mcp = FastMCP(
+    "dodi",
+    host="0.0.0.0" if HTTP_MODE else "127.0.0.1",
+    port=int(os.environ.get("PORT", 8000)),
+    stateless_http=True,
+)
 analyzer = DODIAnalyzer()
 
 
@@ -81,4 +98,4 @@ def explain_score(text: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="streamable-http" if HTTP_MODE else "stdio")
