@@ -49,8 +49,8 @@ def score_tos(text: str) -> str:
 @mcp.tool()
 def get_platform_rankings() -> str:
     """Get DODI scores for the 10 platforms in the 2015-2024 temporal study
-    (Adobe, Amazon, Apple, Facebook, GOG, Microsoft, Netflix, Sony, Steam,
-    Twitter), one score per ToS snapshot year. Higher = more deceptive."""
+    (Adobe, Amazon, Facebook, GOG, Microsoft, Netflix, Spotify, Steam,
+    Twitter, Ubisoft), one score per ToS snapshot year. Higher = more deceptive."""
     csv_path = REPO_ROOT / "output" / "temporal_results.csv"
     if not csv_path.exists():
         return json.dumps({"error": "temporal_results.csv not found; run scripts/analyze_temporal_data.py"})

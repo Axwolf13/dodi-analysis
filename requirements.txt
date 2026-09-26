@@ -7,4 +7,4 @@ seaborn
 requests
 anthropic
 tabulate
-mcp
+mcp<2
