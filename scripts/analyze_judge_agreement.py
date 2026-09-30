@@ -4,12 +4,13 @@ Agreement analysis between DODI, the LLM judge, and ToS;DR expert grades.
 Reads the cached judge outputs written by llm_judge.py plus the existing
 DODI results (temporal_results.csv, validation_results.csv) and reports:
 
-  1. Judge vs DODI over all 52 documents (does the judge agree with the index?)
-  2. Judge vs ToS;DR over the 12 validation documents (n=12, same caveat as DODI)
-  3. DODI vs ToS;DR (the original validation, recomputed for reference)
-  4. Judge self-consistency across 3 runs on a 10-document subset
-  5. Judge vs judge: Gemini 2.5 Flash against Claude Haiku on validation docs
-  6. Largest rank disagreements between judge and DODI, with rationales
+  1. Haiku vs DODI over all 51 documents (does the judge agree with the index?)
+  2. Haiku vs ToS;DR over the 10 validation documents with reviewed grades
+  3. DODI vs ToS;DR (the validation, recomputed for reference)
+  4. Haiku self-consistency across 3 runs on a 10-document subset
+  5. Sonnet and Gemini on the 11 validation documents: vs DODI, vs ToS;DR,
+     vs Haiku and vs each other
+  6. Largest rank disagreements between Haiku and DODI, with rationales
 
 Writes output/judge_results.csv and output/judge_agreement.md. No API calls.
 """
@@ -22,7 +23,7 @@ from scipy import stats
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = REPO_ROOT / "output" / "llm_judge"
 JUDGE_MODEL = "claude-haiku-cli"
-SECOND_JUDGE_MODEL = "gemini-3.5-flash"
+OTHER_JUDGES = ["claude-sonnet-cli", "gemini-3.5-flash"]
 
 GRADE_MAP = {"A": 1, "B": 2, "C": 3, "D": 4, "E": 5}
 
@@ -111,19 +112,37 @@ def main():
         print("\n" + line)
         report += ["", "## Self-consistency", line, "", per_doc.round(1).to_markdown()]
 
-    # Judge vs judge on the validation docs
-    second = (judge[(judge["model"] == SECOND_JUDGE_MODEL) & (judge["run"] == 1)]
-              .set_index("doc_id"))
-    both = primary.join(second, how="inner", lsuffix="_claude", rsuffix="_gemini")
-    if not both.empty:
-        report += ["", "## Judge vs judge"]
-        report.append(spearman_line(
-            f"{SECOND_JUDGE_MODEL} vs {JUDGE_MODEL} ({len(both)} validation docs)",
-            both["judge_score_claude"], both["judge_score_gemini"]))
-        mad = (both["judge_score_claude"] - both["judge_score_gemini"]).abs().mean()
-        line = f"Mean absolute score difference between judges: {mad:.1f} points"
+    # Other judges, validation documents only (Sonnet also judged one temporal doc)
+    others = {}
+    for model in OTHER_JUDGES:
+        rows = judge[(judge["model"] == model) & (judge["run"] == 1)
+                     & judge["doc_id"].str.startswith("validation/")]
+        if not rows.empty:
+            others[model] = rows.set_index("doc_id")
+    if others:
+        report += ["", "## Other judges (validation documents)"]
+        print()
+    for model, other in others.items():
+        o = other.join(dodi, how="inner")
+        report.append(spearman_line(f"{model} vs DODI", o["judge_score"], o["DODI_Score"]))
+        h = o.join(tosdr, how="inner")
+        h = h[h["ToSDR_Grade"].isin(GRADE_MAP)]
+        tos = h["ToSDR_Grade"].map(GRADE_MAP)
+        report.append(spearman_line(f"{model} score vs ToS;DR grade", h["judge_score"], tos))
+        letter = h["judge_grade"].map(GRADE_MAP)
+        ok = letter.notna()
+        report.append(spearman_line(f"{model} letter grade vs ToS;DR grade", letter[ok], tos[ok]))
+        both = primary.join(other, how="inner", lsuffix="_haiku", rsuffix="_other")
+        report.append(spearman_line(f"{model} vs {JUDGE_MODEL}",
+                                    both["judge_score_haiku"], both["judge_score_other"]))
+        mad = (both["judge_score_haiku"] - both["judge_score_other"]).abs().mean()
+        line = f"{model} vs {JUDGE_MODEL}: mean absolute score difference {mad:.1f} points"
         print(line)
         report.append(line)
+    if len(others) == 2:
+        (m1, a), (m2, b) = others.items()
+        pair = a.join(b, how="inner", lsuffix="_1", rsuffix="_2")
+        report.append(spearman_line(f"{m1} vs {m2}", pair["judge_score_1"], pair["judge_score_2"]))
 
     # Disagreements: rank each doc under both scorers, surface the largest gaps
     merged["dodi_rank"] = merged["DODI_Score"].rank()

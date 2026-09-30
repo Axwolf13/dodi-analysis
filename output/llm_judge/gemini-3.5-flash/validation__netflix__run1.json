@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 15,
+  "readability_burden": 45,
+  "aggressive_clauses": 35,
+  "overall_deception": 10,
+  "tosdr_style_grade": "B",
+  "rationale": "Because Netflix is framed clearly as a subscription service rather than a digital storefront, there is very little deception regarding 'buying' versus licensing. The terms are relatively consumer-friendly compared to peers, explicitly preserving local consumer protection laws and promising 30 days' notice for changes. However, it still features standard unilateral suspension rights and allows for highly intrusive remote-access support.",
+  "evidence_quotes": [
+    "Except for the foregoing, no right, title or interest shall be transferred to you.",
+    "These terms will not limit any consumer protection rights that you may be entitled to under the mandatory laws of your country of residence.",
+    "We will notify you at least 30 days before such changes apply to you."
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/netflix",
+    "run": 1
+  }
+}

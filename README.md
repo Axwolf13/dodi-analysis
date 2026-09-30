@@ -45,7 +45,7 @@ The clearest single case is **Adobe 2024**. DODI scores it 95.7, the 7th most de
 
 The honest read: three reasonable methods for "ownership deception" barely converge. It isn't one well-defined number, which is a caution against trusting any single automated ToS score, including this one.
 
-Model notes: the Haiku judgments (`--model haiku`) and the Sonnet validation judgments (`--model sonnet`) ran in August 2026. The Sonnet judgment of Adobe 2024 ran in September 2026 and resolved to `claude-sonnet-5-5`. Temperature can't be set through the CLI. A cross-vendor judge (Gemini 3.5 Flash, `scripts/llm_judge.py`) has scored 6 of the 11 validation documents so far; the free tier's daily quota ran out. It isn't reported until it's complete.
+Model notes: the Haiku judgments (`--model haiku`) and the Sonnet validation judgments (`--model sonnet`) ran in August 2026. The Sonnet judgment of Adobe 2024 ran in September 2026 and resolved to `claude-sonnet-5-5`. Temperature can't be set through the CLI. A cross-vendor judge (Gemini 3.5 Flash, `scripts/llm_judge.py`) has scored 10 of the 11 validation documents so far; the free tier allows 20 requests a day and overload errors count against it. It isn't reported until it's complete.
 
 ## Corrections (September 2026)
 

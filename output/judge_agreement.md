@@ -22,6 +22,19 @@ Self-consistency (10 docs x 3 runs): mean per-doc std = 6.3 points, max spread =
 | validation/reddit     |   57.3 |   5   |    52 |    62 |
 | validation/wikipedia  |    8.7 |   5.5 |     5 |    15 |
 
+## Other judges (validation documents)
+claude-sonnet-cli vs DODI: Spearman rho = 0.261 (p = 0.4374, n = 11)
+claude-sonnet-cli score vs ToS;DR grade: Spearman rho = 0.338 (p = 0.3393, n = 10)
+claude-sonnet-cli letter grade vs ToS;DR grade: Spearman rho = 0.270 (p = 0.4505, n = 10)
+claude-sonnet-cli vs claude-haiku-cli: Spearman rho = 0.500 (p = 0.1173, n = 11)
+claude-sonnet-cli vs claude-haiku-cli: mean absolute score difference 18.2 points
+gemini-3.5-flash vs DODI: Spearman rho = 0.110 (p = 0.7614, n = 10)
+gemini-3.5-flash score vs ToS;DR grade: Spearman rho = 0.000 (p = 1.0000, n = 9)
+gemini-3.5-flash letter grade vs ToS;DR grade: Spearman rho = 0.430 (p = 0.2474, n = 9)
+gemini-3.5-flash vs claude-haiku-cli: Spearman rho = 0.277 (p = 0.4386, n = 10)
+gemini-3.5-flash vs claude-haiku-cli: mean absolute score difference 16.3 points
+claude-sonnet-cli vs gemini-3.5-flash: Spearman rho = 0.622 (p = 0.0551, n = 10)
+
 ## Largest rank disagreements (judge vs DODI)
 
 - **validation/discord**: DODI 46.8 (rank 4) vs judge 68 (rank 45). Judge rationale: Discord markets subscriptions and virtual goods using 'buy' and 'purchase' language while legally defining everything as revocable licenses. Virtual goods are explicitly stated as non-owned, but subscriptions rely on readers understanding 'subscription' implies revocability—a dangerous assumption when combined with aggressive auto-renewal and unilateral termination without refund.

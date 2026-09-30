@@ -112,7 +112,9 @@ def judge_claude_cli(doc_text, model="haiku"):
 
 def judge_gemini(doc_text, api_key):
     from google import genai
-    client = genai.Client(api_key=api_key)
+    from google.genai import types
+    # Without a timeout a stalled request under load hangs the batch indefinitely
+    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=180_000))
     response = client.models.generate_content(
         model=GEMINI_JUDGE,
         contents=f"{RUBRIC}\n\nRate this Terms of Service document.\n\n<document>\n{doc_text}\n</document>",
@@ -146,6 +148,10 @@ def run_batch(judge, docs, run, label, gemini_key=None, pace_seconds=0):
                 result, cached = judge_document(judge, doc_id, path, run, gemini_key)
                 break
             except Exception as e:
+                if "PerDay" in str(e):
+                    # Daily free-tier quota: every further call fails until it resets
+                    print(f"  daily quota exhausted at {doc_id}; rerun after the reset (midnight Pacific)")
+                    return
                 if attempt == 2:
                     print(f"  ❌ {doc_id}: {type(e).__name__}: {str(e)[:150]}")
                     result = None

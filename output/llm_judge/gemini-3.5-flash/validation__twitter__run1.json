@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 45,
+  "readability_burden": 72,
+  "aggressive_clauses": 85,
+  "overall_deception": 50,
+  "tosdr_style_grade": "D",
+  "rationale": "While the platform uses consumer-friendly language to claim 'you own your Content,' it extracts a sweeping, royalty-free, sublicensable license to use and distribute that content without compensation. Furthermore, it retains the unilateral right to terminate accounts and access to the services at any time for 'any or no reason' without liability. Readability is moderately burdened by long paragraphs of legalese and the duplication of terms for different geographical jurisdictions.",
+  "evidence_quotes": [
+    "What\u2019s yours is yours \u2014 you own your Content",
+    "you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute such Content",
+    "We may suspend or terminate your account or cease providing you with all or part of the Services at any time for any or no reason"
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/twitter",
+    "run": 1
+  }
+}

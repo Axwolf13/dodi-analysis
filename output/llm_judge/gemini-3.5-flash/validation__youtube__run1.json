@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 50,
+  "readability_burden": 55,
+  "aggressive_clauses": 85,
+  "overall_deception": 45,
+  "tosdr_style_grade": "D",
+  "rationale": "While the document explicitly states that users retain ownership of their uploaded content, it extracts extremely broad, transferable, and royalty-free licenses to that content, including unilateral rights to monetize it without compensation. Furthermore, it contains highly aggressive clauses such as a liability cap of $500, a one-year statute of limitations on claims, and the right to terminate accounts simply if the service is no longer 'commercially viable'. Readability is slightly improved by summary headers, but the legal reality remains heavily weighted against the consumer.",
+  "evidence_quotes": [
+    "provision of the Service to you is no longer commercially viable",
+    "This Agreement does not entitle you to any payments.",
+    "OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED."
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/youtube",
+    "run": 1
+  }
+}

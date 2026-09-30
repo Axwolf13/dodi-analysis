@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 85,
+  "readability_burden": 50,
+  "aggressive_clauses": 80,
+  "overall_deception": 82,
+  "tosdr_style_grade": "D",
+  "rationale": "The document frames transactions using familiar consumer concepts like 'buying' and 'purchasing' in the introduction, yet completely revokes ownership in the fine print. It explicitly states that 'purchased' virtual goods are merely software licenses, are not property, and can be unilaterally modified or deleted by Discord without liability or refund. Additionally, EU consumers must agree to completely waive their statutory right of withdrawal to access their purchases.",
+  "evidence_quotes": [
+    "Thank you for buying something through Discord!",
+    "You do not own, or have any other right, title, or other proprietary interest in these virtual goods, regardless of any consideration offered or paid in exchange.",
+    "We reserve the right to control, regulate, change or remove any virtual goods, or terminate provision of virtual goods at any time, in our sole discretion, without any liability to you."
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/discord",
+    "run": 1
+  }
+}
