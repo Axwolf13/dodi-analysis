@@ -1,0 +1,101 @@
+{
+  "results": [
+    {
+      "platform": "steam",
+      "year": 2024,
+      "sale_type": "one-time",
+      "promise": 1.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 94.1,
+      "dodi_v2": 94.1
+    },
+    {
+      "platform": "microsoft",
+      "year": 2024,
+      "sale_type": "one-time",
+      "promise": 1.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 82.6,
+      "dodi_v2": 82.6
+    },
+    {
+      "platform": "ubisoft",
+      "year": 2024,
+      "sale_type": "one-time",
+      "promise": 1.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 80.0,
+      "dodi_v2": 80.0
+    },
+    {
+      "platform": "amazon",
+      "year": 2024,
+      "sale_type": "one-time",
+      "promise": 1.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 63.4,
+      "dodi_v2": 63.4
+    },
+    {
+      "platform": "adobe",
+      "year": 2024,
+      "sale_type": "subscription",
+      "promise": 0.5,
+      "licence_at_sale": false,
+      "dodi_v1_1": 95.7,
+      "dodi_v2": 47.9
+    },
+    {
+      "platform": "gog",
+      "year": 2024,
+      "sale_type": "one-time",
+      "promise": 1.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 47.7,
+      "dodi_v2": 47.7
+    },
+    {
+      "platform": "facebook",
+      "year": 2024,
+      "sale_type": "none",
+      "promise": 0.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 84.3,
+      "dodi_v2": 0.0
+    },
+    {
+      "platform": "netflix",
+      "year": 2024,
+      "sale_type": "subscription",
+      "promise": 0.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 82.4,
+      "dodi_v2": 0.0
+    },
+    {
+      "platform": "spotify",
+      "year": 2024,
+      "sale_type": "subscription",
+      "promise": 0.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 87.2,
+      "dodi_v2": 0.0
+    },
+    {
+      "platform": "twitter",
+      "year": 2024,
+      "sale_type": "subscription",
+      "promise": 0.0,
+      "licence_at_sale": false,
+      "dodi_v1_1": 99.5,
+      "dodi_v2": 0.0
+    }
+  ],
+  "haiku_agreement": {
+    "n": 10,
+    "v1_1_rho": 0.188,
+    "v1_1_p": 0.602,
+    "v2_rho": 0.417,
+    "v2_p": 0.23
+  }
+}

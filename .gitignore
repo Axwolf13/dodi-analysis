@@ -9,3 +9,6 @@ data/tosdr_corpus/
 
 # API key for the LLM-judge scripts
 .env
+
+# archived storefront pages: refetch with scripts/fetch_storefronts.py
+data/storefront/raw/*.html

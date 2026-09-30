@@ -1,0 +1,110 @@
+{
+  "adobe_2024": {
+    "page": "www.adobe.com/creativecloud/plans.html",
+    "snapshot": "https://web.archive.org/web/20240501164239/https://www.adobe.com/creativecloud/plans.html",
+    "timestamp": "20240501164239",
+    "bytes": 620730
+  },
+  "gog_2024": {
+    "page": "www.gog.com/en/game/cyberpunk_2077",
+    "snapshot": "https://web.archive.org/web/20240509184045/https://www.gog.com/en/game/cyberpunk_2077",
+    "timestamp": "20240509184045",
+    "bytes": 779662
+  },
+  "microsoft_2024": {
+    "page": "www.xbox.com/en-US/games/store/cyberpunk-2077/bx3m8l83bbrw",
+    "snapshot": "https://web.archive.org/web/20240622030919/https://www.xbox.com/en-US/games/store/cyberpunk-2077/bx3m8l83bbrw",
+    "timestamp": "20240622030919",
+    "bytes": 804199
+  },
+  "netflix_2024": {
+    "page": "www.netflix.com/",
+    "snapshot": "https://web.archive.org/web/20240501011158/https://www.netflix.com/",
+    "timestamp": "20240501011158",
+    "bytes": 305159
+  },
+  "spotify_2024": {
+    "page": "www.spotify.com/us/premium/",
+    "snapshot": "https://web.archive.org/web/20240501214608/https://www.spotify.com/us/premium/",
+    "timestamp": "20240501214608",
+    "bytes": 153391
+  },
+  "steam_2024": {
+    "page": "store.steampowered.com/app/1091500/Cyberpunk_2077/",
+    "snapshot": "https://web.archive.org/web/20240716061817/https://store.steampowered.com/app/1091500/Cyberpunk_2077",
+    "timestamp": "20240716061817",
+    "bytes": 241187
+  },
+  "ubisoft_2024": {
+    "page": "store.ubisoft.com/us/home",
+    "snapshot": "https://web.archive.org/web/20240519043853/https://store.ubisoft.com/us/home",
+    "timestamp": "20240519043853",
+    "bytes": 884799
+  },
+  "amazon_2024": {
+    "page": "www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR",
+    "snapshot": "https://web.archive.org/web/20240418194920/https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR",
+    "timestamp": "20240418194920",
+    "bytes": 192349
+  },
+  "twitter_2024": {
+    "page": "help.x.com/en/using-x/x-premium",
+    "snapshot": "https://web.archive.org/web/20240517171600/https://help.x.com/en/using-x/x-premium",
+    "timestamp": "20240517171600",
+    "bytes": 26859
+  },
+  "adobe_2025": {
+    "page": "www.adobe.com/creativecloud/plans.html",
+    "snapshot": "https://web.archive.org/web/20250401183031/https://www.adobe.com/creativecloud/plans.html",
+    "timestamp": "20250401183031",
+    "bytes": 661920
+  },
+  "amazon_2025": {
+    "page": "www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR",
+    "snapshot": "https://web.archive.org/web/20250514112952/https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR",
+    "timestamp": "20250514112952",
+    "bytes": 1015073
+  },
+  "gog_2025": {
+    "page": "www.gog.com/en/game/cyberpunk_2077",
+    "snapshot": "https://web.archive.org/web/20250402174815/https://www.gog.com/en/game/cyberpunk_2077",
+    "timestamp": "20250402174815",
+    "bytes": 950860
+  },
+  "microsoft_2025": {
+    "page": "www.xbox.com/en-US/games/store/cyberpunk-2077/bx3m8l83bbrw",
+    "snapshot": "https://web.archive.org/web/20250407105757/https://www.xbox.com/en-us/games/store/cyberpunk-2077/bx3m8l83bbrw",
+    "timestamp": "20250407105757",
+    "bytes": 817824
+  },
+  "netflix_2025": {
+    "page": "www.netflix.com/",
+    "snapshot": "https://web.archive.org/web/20250401021629/https://www.netflix.com/",
+    "timestamp": "20250401021629",
+    "bytes": 3050053
+  },
+  "spotify_2025": {
+    "page": "www.spotify.com/us/premium/",
+    "snapshot": "https://web.archive.org/web/20250401021959/https://www.spotify.com/us/premium/",
+    "timestamp": "20250401021959",
+    "bytes": 179404
+  },
+  "steam_2025": {
+    "page": "store.steampowered.com/app/1091500/Cyberpunk_2077/",
+    "snapshot": "https://web.archive.org/web/20250416133441/https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+    "timestamp": "20250416133441",
+    "bytes": 244493
+  },
+  "twitter_2025": {
+    "page": "help.x.com/en/using-x/x-premium",
+    "snapshot": "https://web.archive.org/web/20250401030259/https://help.x.com/en/using-x/x-premium",
+    "timestamp": "20250401030259",
+    "bytes": 167069
+  },
+  "ubisoft_2025": {
+    "page": "store.ubisoft.com/us/home",
+    "snapshot": "https://web.archive.org/web/20250403063738/https://store.ubisoft.com/us/home",
+    "timestamp": "20250403063738",
+    "bytes": 317888
+  }
+}

@@ -1,0 +1,11 @@
+platform,year,sale_type,promise,licence_at_sale,dodi_v1_1,dodi_v2
+steam,2024,one-time,1.0,False,94.1,94.1
+microsoft,2024,one-time,1.0,False,82.6,82.6
+ubisoft,2024,one-time,1.0,False,80.0,80.0
+amazon,2024,one-time,1.0,False,63.4,63.4
+adobe,2024,subscription,0.5,False,95.7,47.9
+gog,2024,one-time,1.0,False,47.7,47.7
+facebook,2024,none,0.0,False,84.3,0.0
+netflix,2024,subscription,0.0,False,82.4,0.0
+spotify,2024,subscription,0.0,False,87.2,0.0
+twitter,2024,subscription,0.0,False,99.5,0.0

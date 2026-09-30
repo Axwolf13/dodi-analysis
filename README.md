@@ -6,7 +6,7 @@ Built solo for the Data and Society seminar at Saarland University, grounded in 
 
 **Score any ToS yourself at [dodi-web.onrender.com](https://dodi-web.onrender.com/)**, the deployed version of this scorer ([code](https://github.com/Axwolf13/dodi-web)), or call it from an AI agent through the [MCP server](#use-dodi-from-an-ai-agent-mcp-server).
 
-> **This is DODI v1.1 (September 2026).** An audit of the July release found five problems, two of which changed published numbers. Every figure below comes from the corrected version. [Corrections](#corrections-september-2026) lists what was wrong and how to reproduce the old numbers.
+> **DODI v1.1 (September 2026):** whole-word matching and a validation set of reviewed ToS;DR grades. Every figure below comes from v1.1. [Changes in v1.1](#changes-in-v11) lists what changed from the July release. [DODI v2](#dodi-v2-what-the-store-promises-against-what-the-contract-grants) adds the storefront side: what the store promises against what the contract grants.
 
 ## Key findings
 
@@ -41,23 +41,60 @@ What this says, in order of how much I trust it:
 2. **Nobody wins against the humans.** DODI (0.45) edges both judges' scores (0.34), but Haiku's letter grade reaches 0.56. At n = 10 none of these differences can be told apart and none is significant.
 3. **The judges are consistent.** Ten documents judged three times each vary by 6.3 points on average, so the disagreement isn't noise.
 
-The clearest single case is **Adobe 2024**. DODI scores it 95.7, the 7th most deceptive of 40 documents. Haiku scores it 44 and Sonnet 32. Both judges cite the same sentence: Adobe states plainly that its software is "licensed, not sold". It never dangles a "Buy" button. DODI can't tell honest licensing from deceptive licensing, because it counts licence words. That's the same false positive as Wikipedia above. The fix is to measure the gap between what the storefront promises and what the contract grants, which is the natural DODI v2.
+The clearest single case is **Adobe 2024**. DODI scores it 95.7, the 7th most deceptive of 40 documents. Haiku scores it 44 and Sonnet 32. Both judges cite the same sentence: Adobe states plainly that its software is "licensed, not sold", and its store prices every plan per month. The button says "Buy now", but nobody mistakes a subscription for ownership. DODI can't tell honest licensing from deceptive licensing, because it counts licence words. That's the same false positive as Wikipedia above. [DODI v2](#dodi-v2-what-the-store-promises-against-what-the-contract-grants) measures exactly that gap: what the storefront promises against what the contract grants.
 
 The honest read: three reasonable methods for "ownership deception" barely converge. It isn't one well-defined number, which is a caution against trusting any single automated ToS score, including this one.
 
 Model notes: the Haiku judgments (`--model haiku`) and the Sonnet validation judgments (`--model sonnet`) ran in August 2026. The Sonnet judgment of Adobe 2024 ran in September 2026 and resolved to `claude-sonnet-5-5`. Temperature can't be set through the CLI. A cross-vendor judge (Gemini 3.5 Flash, `scripts/llm_judge.py`) has scored 10 of the 11 validation documents so far; the free tier allows 20 requests a day and overload errors count against it. It isn't reported until it's complete.
 
-## Corrections (September 2026)
+## DODI v2: what the store promises against what the contract grants
 
-A September audit found these problems in the July release. I'm keeping them visible because the whole point of this project is honest measurement.
+v1.1 scores the contract alone, so an honest subscription whose terms are full of licence language scores as highly deceptive. v2 asks the question the LLM judges kept raising: what did the store promise before you ever saw the contract?
 
-1. **Terms were counted as substrings.** `text.count("own")` also counted "download", "known" and "takedown"; `"rent"` matched "different", "parent" and "current". Across the corpus, 349 of 837 "own" hits and 352 of 374 "rent" hits were other words. The British spelling "licence" was never counted, which understated GOG and Spotify. v1.1 counts whole words and their genuine forms. `scripts/matching_audit.py` compares both versions on every result: GOG stays lowest in every year and the upward trend holds (details in [`output/matching_audit.md`](output/matching_audit.md)).
-2. **The validation used different weights from the index.** The published ρ = 0.54 came from a run with 10/50/40 weights left over from a tuning experiment. Every other result, the website and the MCP server use the documented 25/50/25.
-3. **The validation set had mislabeled and duplicated documents.** The ToS;DR record numbers in `tosdr_working_api.py` were wrong for six services. Each text was fetched by record number, so texts matched their grades, but the names didn't. "WhatsApp" was Wikipedia (fixed in August), "Apple" was Salesforce with an unreviewed grade, "Amazon" was a byte-identical second copy of Reddit. The corrected set has ten reviewed services, plus Salesforce as a sensitivity check.
-4. **Two claims about Adobe were wrong.** The August write-up called Adobe 2024 DODI's most deceptive document. It ranked 6th under v1.0 and ranks 7th under v1.1. It also reported a Sonnet score of 20 for Adobe, but Sonnet had never judged Adobe: 20 was its score for the Salesforce document. Sonnet has now judged Adobe 2024 and gives it 32.
-5. **"DODI tracks human experts best" no longer holds.** With the corrected set and scorer, DODI, Haiku and Sonnet are indistinguishable against the human grades.
+```
+DODI v2 = v1.1 contract score × promise × (1 − 0.5 × licence stated at the point of sale)
 
-The July v1.0 numbers remain reproducible: `DODIAnalyzer(matching="substring")` scores the old way. `data/validation_2026-07/` keeps the original grade files, the published validation results and the duplicate Amazon file.
+promise 1.0  one-time purchase of a specific title ("Buy", or "Add to cart" with a price)
+        0.5  subscription sold with "Buy" wording
+        0.0  subscription or free service, or no store at all
+```
+
+For each platform I took an archived 2024 purchase page from the Wayback Machine and coded it. Every code cites its snapshot and the exact wording in [`data/storefront/coding.csv`](data/storefront/coding.csv).
+
+| Platform | The store sells | Promise | v1.1 | v2 |
+|---|---|---|---|---|
+| Steam | one-time purchase | 1 | 94.1 | **94.1** |
+| Microsoft | one-time purchase | 1 | 82.6 | **82.6** |
+| Ubisoft | one-time purchase | 1 | 80.0 | **80.0** |
+| Amazon | one-time purchase | 1 | 63.4 | **63.4** |
+| Adobe | subscription | 0.5 | 95.7 | **47.9** |
+| GOG | one-time purchase | 1 | 47.7 | **47.7** |
+| Facebook | nothing | 0 | 84.3 | **0.0** |
+| Netflix | subscription | 0 | 82.4 | **0.0** |
+| Spotify | subscription | 0 | 87.2 | **0.0** |
+| X (Twitter) | subscription | 0 | 99.5 | **0.0** |
+
+1. **The subscription false positives disappear.** X, Spotify, Netflix and Facebook never sell you a title, so there's no ownership promise to break. X scored 99.5 under v1.1, the highest in the set; under v2 it's 0.
+2. **The stores that sell titles keep their contract scores.** Steam leads at 94.1 ("Buy Cyberpunk 2077 $59.99 Add to Cart" over a Subscriber Agreement), then Xbox, Ubisoft and Amazon.
+3. **Adobe halves.** Its store says "Buy now", but on plans priced per month.
+4. **GOG is still the lowest seller**, even though its store labels your games "Owned". It's also the one store here that hands you DRM-free installers.
+5. **v2 agrees better with the LLM reader.** On the same ten 2024 contracts, agreement with the Haiku judge rises from ρ = 0.19 to 0.42 (n = 10, p = 0.23). Suggestive, not significant.
+
+**The 2025 pages already look different.** Between April 2024 and May 2025, Amazon's Kindle button changed from "Buy now with 1-Click" to "Buy now with 1-Click. By placing an order, you're purchasing a content license". California's AB 2426, in force since January 2025, targets stores that say "buy" for licensed digital goods. Under v2 that disclosure halves Amazon's score. The Steam, Xbox, GOG and Adobe pages captured in April 2025 show no such notice, though the Steam capture came from the EU and a US-only notice wouldn't appear in it.
+
+Limits of v2: one purchase page per platform, coded by me (the quotes are there to check); three promise levels and a 0.5 disclosure weight are choices, not estimates; only the 2024 contracts are scored; and store pages vary by region.
+
+## Changes in v1.1
+
+What changed from the July release (v1.0):
+
+1. **Whole-word matching.** v1.0 counted substrings: "own" also matched "download", "known" and "takedown"; "rent" matched "different", "parent" and "current". v1.1 counts whole words and their genuine forms, including the British "licence". `scripts/matching_audit.py` compares both versions on every result: GOG stays lowest in every year and the upward trend holds (details in [`output/matching_audit.md`](output/matching_audit.md)).
+2. **Validation weights.** The validation uses the index's documented 25/50/25 weights, the same as every other result, the website and the MCP server.
+3. **Validation set.** Ten services with reviewed ToS;DR grades, each text labelled by its ToS;DR record, plus Salesforce (unreviewed grade) as a sensitivity check.
+4. **Adobe.** Adobe 2024 ranks 7th of 40 documents under v1.1. Sonnet has judged it too: 32.
+5. **Agreement with humans.** At n = 10, DODI, Haiku and Sonnet are indistinguishable against the human grades.
+
+The v1.0 numbers remain reproducible: `DODIAnalyzer(matching="substring")` scores the old way. `data/validation_2026-07/` keeps the July grade files and results.
 
 ## How the score works
 
@@ -84,8 +121,11 @@ scripts/
   analyze_judge_agreement.py    judge vs DODI vs ToS;DR, writes output/judge_agreement.md
   judge_sonnet_validation.py    resumable Sonnet robustness run on the validation set
   batch_analyzer_clean.py       score any folder of .txt ToS documents
+  fetch_storefronts.py          archived purchase pages for v2 (Wayback CDX, cached)
+  storefront_evidence.py        purchase and licence wording quoted from those pages
+  dodi_v2.py                    v1.1 contract score x store promise, writes output/dodi_v2_results.csv
   test_weights_face_validity.py compares the candidate weightings
-  tosdr_working_api.py          July 2026 grade collection (record numbers were wrong)
+  tosdr_working_api.py          July 2026 grade collection (superseded by tosdr_grades.csv)
   download_tos_documents.py     July 2026 text collection (the API route no longer exists)
 mcp_server.py                   DODI as an MCP server (stdio or Streamable HTTP)
 tests/test_mcp_server.py        end-to-end protocol test over both transports
@@ -93,7 +133,8 @@ data/
   temporal/                     40 ToS snapshots: 10 platforms × {2015, 2018, 2021, 2024}
   validation/                   11 ToS texts matched to ToS;DR grades (tosdr_grades.csv)
   validation_2026-07/           the original July validation files, kept for reproducibility
-output/                         results, figures, judge cache and audit reports
+  storefront/coding.csv         v2 store coding with snapshot links and quotes (raw pages refetchable)
+output/                         results, figures, judge cache and matching comparison
 ```
 
 ## Run it
@@ -152,7 +193,7 @@ HTTP mode also switches on when a `PORT` variable is set, which is how Render pa
 
 ## Future work
 
-The marketing-vs-contract gap (deception is largest where the storefront says "buy" and the contract says "licence"), which would fix the Adobe and Wikipedia false positives. A revised term list that doesn't count "service" as licence language, with continuous scaling instead of hard caps. A larger validation set: ToS;DR has reviewed grades for Amazon (D), Apple Services (C), Steam (D), TikTok (E) and WhatsApp (E), but it no longer serves document text, so this needs a new text source. Negation-aware clause parsing with spaCy dependency trees.
+v2 across all four snapshot years and several products per platform. A revised term list that doesn't count "service" as licence language, with continuous scaling instead of hard caps. A larger validation set: ToS;DR has reviewed grades for Amazon (D), Apple Services (C), Steam (D), TikTok (E) and WhatsApp (E), but it no longer serves document text, so this needs a new text source. Negation-aware clause parsing with spaCy dependency trees.
 
 ## References
 
