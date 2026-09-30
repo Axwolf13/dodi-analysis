@@ -1,0 +1,16 @@
+Service,ID,Grade,Slug,Reviewed
+Facebook,182,E,facebook,True
+Google,217,E,google,True
+Amazon,194,E,reddit,True
+Wikipedia,265,B,wikipedia,True
+Twitter,195,E,twitter,True
+Instagram,219,E,instagram,True
+Netflix,185,D,netflix,True
+Spotify,222,C,duckduckgo,True
+Microsoft,244,E,microsoft_services,True
+Apple,216,D,salesforce,False
+Steam,340,N/A,bitcasa_discontinued,False
+TikTok,295,N/A,makeuseofdeals,False
+YouTube,274,E,youtube,True
+Discord,536,D,discord,True
+Reddit,194,E,reddit,True

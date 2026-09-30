@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 75,
+  "readability_burden": 85,
+  "aggressive_clauses": 90,
+  "overall_deception": 75,
+  "tosdr_style_grade": "D",
+  "rationale": "The agreement heavily restricts the user's ability to transfer or sell digital products, stating that all software downloads are strictly governed by external licensing agreements rather than being owned. Additionally, the platform reserves the right to unilaterally alter these terms or terminate user access at any time without prior notice. The text is also burdened by extensive legal jargon and large blocks of all-caps text that severely hinder readability.",
+  "evidence_quotes": [
+    "Microsoft reserves the right to update the TOU at any time without notice to you.",
+    "Use of the Software is governed by the terms of the end user license agreement",
+    "Microsoft reserves the right to terminate your access to any or all of the Communication Services at any time, without notice, for any reason whatsoever."
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/microsoft",
+    "run": 1
+  }
+}

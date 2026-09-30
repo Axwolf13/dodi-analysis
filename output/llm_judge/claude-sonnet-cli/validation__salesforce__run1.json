@@ -12,7 +12,8 @@
   ],
   "_meta": {
     "model": "claude-sonnet-cli",
-    "doc_id": "validation/apple",
-    "run": 1
+    "doc_id": "validation/salesforce",
+    "run": 1,
+    "relabelled_from": "validation/apple"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 30,
+  "readability_burden": 60,
+  "aggressive_clauses": 85,
+  "overall_deception": 45,
+  "tosdr_style_grade": "E",
+  "rationale": "While Instagram explicitly states it does not claim ownership of user content, it demands a broad, sub-licensable license that functions as a de facto transfer of rights during active use. The terms contain highly aggressive clauses, including forced arbitration, class-action waivers, and broad unilateral account termination rights. The overall presentation uses conversational framing to mask severe legal restrictions and liability limitations.",
+  "evidence_quotes": [
+    "you hereby grant to us a non-exclusive, royalty-free, transferable, sub-licensable, worldwide license",
+    "YOU AGREE THAT DISPUTES BETWEEN YOU AND US WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT",
+    "We can refuse to provide or stop providing all or part of the Service to you (including terminating or disabling your account) immediately"
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/instagram",
+    "run": 1
+  }
+}

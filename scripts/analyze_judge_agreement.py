@@ -22,7 +22,7 @@ from scipy import stats
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = REPO_ROOT / "output" / "llm_judge"
 JUDGE_MODEL = "claude-haiku-cli"
-SECOND_JUDGE_MODEL = "gemini-flash-latest"
+SECOND_JUDGE_MODEL = "gemini-3.5-flash"
 
 GRADE_MAP = {"A": 1, "B": 2, "C": 3, "D": 4, "E": 5}
 
@@ -58,7 +58,8 @@ def load_dodi_scores():
         temporal[["doc_id", "DODI_Score"]],
         validation[["doc_id", "DODI_Score"]],
     ])
-    tosdr = validation.set_index("doc_id")["ToSDR_Grade"]
+    # Unreviewed ToS;DR grades are provisional; compare against reviewed ones only
+    tosdr = validation[validation["Reviewed"]].set_index("doc_id")["ToSDR_Grade"]
     return dodi.set_index("doc_id")["DODI_Score"], tosdr
 
 

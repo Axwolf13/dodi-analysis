@@ -67,9 +67,9 @@ def score_tos(text: str) -> str:
         return json.dumps({"error": "Text too short to score meaningfully; pass the full ToS document."})
     result = analyzer.analyze(text)
     result["interpretation"] = interpret(result["dodi_score"])
-    result["method"] = ("Deterministic: 50% licence-vs-ownership term ratio, "
-                        "25% Flesch-Kincaid readability penalty, 25% red-flag clauses. "
-                        "Same document always scores the same.")
+    result["method"] = ("DODI v1.1, deterministic: 50% licence-vs-ownership term ratio, "
+                        "25% Flesch-Kincaid readability penalty, 25% red-flag clauses, "
+                        "counting whole words. Same document always scores the same.")
     return json.dumps(result, indent=2)
 
 
@@ -92,10 +92,7 @@ def explain_score(text: str) -> str:
     score_tos when the user wants the evidence behind the number."""
     if len(text) < 500:
         return json.dumps({"error": "Text too short to analyze."})
-    lower = text.lower()
-    ownership = {w: lower.count(w) for w in analyzer.ownership_words if lower.count(w)}
-    licence = {w: lower.count(w) for w in analyzer.license_words if lower.count(w)}
-    flags = {p: lower.count(p) for p in analyzer.red_flags if lower.count(p)}
+    ownership, licence, flags = analyzer.term_counts(text)
     result = analyzer.analyze(text)
     return json.dumps({
         "dodi_score": result["dodi_score"],

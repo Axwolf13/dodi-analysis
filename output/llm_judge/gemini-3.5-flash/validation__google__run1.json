@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 75,
+  "readability_burden": 45,
+  "aggressive_clauses": 55,
+  "overall_deception": 70,
+  "tosdr_style_grade": "D",
+  "rationale": "While Google uses an unusually clear and friendly layout, it completely obscures the reality of digital ownership by framing platforms like Google Play as 'services' where access is merely a revocable permission. The document preserves Google's absolute right to unilaterally terminate accounts and remove access to digital content without providing real ownership guarantees. Furthermore, it claims a broad, perpetual license to host, modify, and sublicense user-uploaded content.",
+  "evidence_quotes": [
+    "Although we give you permission to use our services, we retain any intellectual property rights we have in the services.",
+    "Google reserves the right to suspend or terminate your access to the services or delete your Google Account",
+    "This license allows Google to: host, reproduce, distribute, communicate, and use your content"
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/google",
+    "run": 1
+  }
+}

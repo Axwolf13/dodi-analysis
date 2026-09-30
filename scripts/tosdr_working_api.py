@@ -1,3 +1,6 @@
+# Superseded. The July 2026 grade collection. Six record numbers in
+# known_services are wrong (WhatsApp, Amazon, Apple, Spotify, Steam, TikTok),
+# so it fetched other services under those names; see the README's Corrections.
 # tosdr_working_api.py
 import requests
 import pandas as pd

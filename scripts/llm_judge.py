@@ -9,7 +9,7 @@ analysis never needs a live model.
 Two judge backends, both free of API billing:
   claude-cli  Claude Haiku through the Claude Code CLI in headless mode
               (runs on the local Claude subscription; no API key)
-  gemini      Gemini 2.5 Flash on the AI Studio free tier
+  gemini      Gemini 3.5 Flash on the AI Studio free tier
               (needs GEMINI_API_KEY in the environment or repo-root .env)
 
 Runs performed:
@@ -30,7 +30,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = REPO_ROOT / "output" / "llm_judge"
 
 CLAUDE_JUDGE = "claude-haiku-cli"
-GEMINI_JUDGE = "gemini-flash-latest"
+GEMINI_JUDGE = "gemini-3.5-flash"
 
 # Fixed subset for the repeat runs: spread across score range and years so
 # consistency isn't measured only on easy extremes.

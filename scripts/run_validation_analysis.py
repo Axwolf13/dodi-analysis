@@ -45,6 +45,7 @@ def run_validation():
         
         service_name = service_row.iloc[0]['Service']
         tosdr_grade = service_row.iloc[0]['Grade']
+        reviewed = str(service_row.iloc[0]['Reviewed']) == 'True'
         
         print(f"Analyzing {service_name}...")
         
@@ -59,6 +60,7 @@ def run_validation():
             results.append({
                 'Service': service_name,
                 'ToSDR_Grade': tosdr_grade,
+                'Reviewed': reviewed,
                 'DODI_Score': analysis['dodi_score'],
                 'License_Ratio': analysis['ratio'],
                 'Readability': analysis['grade_level'],
@@ -93,7 +95,16 @@ def run_validation():
     df['Grade_Numeric'] = df['ToSDR_Grade'].map(grade_map)
     
     # Pearson correlation
-    r, p_value = stats.pearsonr(df['DODI_Score'], df['Grade_Numeric'])
+    # Unreviewed ToS;DR grades are provisional, so the headline statistics use
+    # reviewed grades only; including them is reported as a sensitivity check
+    reviewed = df[df['Reviewed']]
+    rho, rho_p = stats.spearmanr(reviewed['DODI_Score'], reviewed['Grade_Numeric'])
+    r, p_value = stats.pearsonr(reviewed['DODI_Score'], reviewed['Grade_Numeric'])
+    print(f"Reviewed grades only (n = {len(reviewed)})")
+    print(f"Spearman correlation (rho): {rho:.3f}, p = {rho_p:.4f}")
+    rho_all, p_all = stats.spearmanr(df['DODI_Score'], df['Grade_Numeric'])
+    print(f"Sensitivity, including unreviewed grades (n = {len(df)}): "
+          f"rho = {rho_all:.3f}, p = {p_all:.4f}")
     
     print(f"Pearson Correlation (r): {r:.3f}")
     print(f"P-value: {p_value:.6f}")
@@ -152,11 +163,11 @@ def run_validation():
             print(f"  {row['Service']}: {row['DODI_Score']:.1f}")
     
     # Visualization
-    create_validation_plots(df, r, p_value)
+    create_validation_plots(reviewed, r, p_value, rho, rho_p)
     
     return df, r, p_value
 
-def create_validation_plots(df, r, p_value):
+def create_validation_plots(df, r, p_value, rho, rho_p):
     """Create validation visualizations"""
     sns.set_style("whitegrid")
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
@@ -192,7 +203,7 @@ def create_validation_plots(df, r, p_value):
     x_line = np.linspace(df['Grade_Num'].min(), df['Grade_Num'].max(), 100)
     ax2.plot(x_line, p(x_line), "r--", linewidth=2, label='Regression')
     
-    ax2.set_title(f'Correlation: r={r:.3f}, p={p_value:.4f}',
+    ax2.set_title(f'Spearman ρ = {rho:.2f} (p = {rho_p:.2f}), Pearson r = {r:.2f}, n = {len(df)}',
                   fontsize=14, fontweight='bold')
     ax2.set_xlabel('ToS;DR Grade (1=A, 5=E)', fontsize=12)
     ax2.set_ylabel('DODI Score', fontsize=12)

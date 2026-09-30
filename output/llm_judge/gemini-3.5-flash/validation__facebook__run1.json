@@ -1,0 +1,17 @@
+{
+  "ownership_opacity": 20,
+  "readability_burden": 75,
+  "aggressive_clauses": 65,
+  "overall_deception": 30,
+  "tosdr_style_grade": "C",
+  "rationale": "While the terms explicitly state that users own their shared content, this ownership is heavily undermined by an extremely broad, transferable, and sub-licensable license granted to the platform. The document's legibility is severely hampered by extensive regulatory blocks and complex legal phrasing. However, being the European jurisdiction version, it avoids the highly aggressive forced arbitration and class-action waivers common in US equivalents.",
+  "evidence_quotes": [
+    "You own the content you create and share on Facebook and the other Facebook Products you use, and nothing in these Terms takes away the rights you have to your own content.",
+    "you grant us a non-exclusive, transferable, sub-licensable, and worldwide license to host, use, distribute, modify, run, copy, publicly perform or display, translate, and create derivative works of your content"
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/facebook",
+    "run": 1
+  }
+}

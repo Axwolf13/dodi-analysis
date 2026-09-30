@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 75,
+  "readability_burden": 55,
+  "aggressive_clauses": 80,
+  "overall_deception": 70,
+  "tosdr_style_grade": "D",
+  "rationale": "While the document attempts a conversational and friendly introduction, it quickly defaults to aggressive legal clauses, including a total liability cap of $100 and the right to terminate accounts for 'any or no reason.' It baits users with terms like 'purchase' for virtual goods and premium tiers, while legally binding them to a fully revocable, limited license where they own nothing.",
+  "evidence_quotes": [
+    "Reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services",
+    "We may suspend or terminate your Account, moderator status, or ability to access or use the Services at any time for any or no reason",
+    "some services, including Reddit Premium and Virtual Goods, may be available for purchase"
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/reddit",
+    "run": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ownership_opacity": 30,
+  "readability_burden": 65,
+  "aggressive_clauses": 68,
+  "overall_deception": 32,
+  "tosdr_style_grade": "D",
+  "rationale": "Adobe states plainly that 'Our Services and Software are licensed, not sold,' and the licence is described as 'limited, revocable.' It also says users own their own content and that it will not train generative AI on it, so ownership is not hidden. The document is long and dense, and it carries heavy burdens: mandatory arbitration, a class action waiver, a one-year claims bar, a liability cap of $100 or three months of fees, and broad termination and discontinuation rights.",
+  "evidence_quotes": [
+    "Our Services and Software are licensed, not sold, to you",
+    "non-exclusive, limited, revocable right",
+    "Claims related to the Terms, Services, or Software are permanently barred if not brought within one year",
+    "modify, update, or discontinue the Services and Software... which modifications... may, for clarity, be detrimental or result in a diminishment of value to you, at any time, without liability"
+  ],
+  "_meta": {
+    "model": "claude-sonnet-cli",
+    "doc_id": "temporal/adobe_2024",
+    "run": 1,
+    "resolved_models": [
+      "claude-sonnet-5-5"
+    ]
+  }
+}

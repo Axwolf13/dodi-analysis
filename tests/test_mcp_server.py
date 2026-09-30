@@ -47,6 +47,14 @@ async def run_checks(session):
     print(f"  explain_score: Netflix ratio = {detail['licence_to_ownership_ratio']}, "
           f"top red flag = {next(iter(detail['red_flags_found']), 'none')}")
     assert detail["dodi_score"] == netflix_score, "explain and score must agree"
+    r = await session.call_tool("score_tos", {"text": netflix})
+    scored = json.loads(r.content[0].text)
+    assert sum(detail["ownership_terms_found"].values()) == scored["ownership_count"], \
+        "explained ownership hits must add up to the scored count"
+    assert sum(detail["licence_terms_found"].values()) == scored["license_count"], \
+        "explained licence hits must add up to the scored count"
+    assert sum(detail["red_flags_found"].values()) == scored["red_flags"], \
+        "explained red flags must add up to the scored count"
 
     r = await session.call_tool("get_platform_rankings", {})
     lines = r.content[0].text.strip().splitlines()

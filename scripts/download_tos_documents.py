@@ -1,3 +1,6 @@
+# Superseded. The July 2026 text collection. ToS;DR has since removed the
+# document/v2 route, so this no longer runs; the fetched texts are kept in
+# data/validation (relabelled) and data/validation_2026-07.
 # download_tos_documents.py
 import requests
 import pandas as pd

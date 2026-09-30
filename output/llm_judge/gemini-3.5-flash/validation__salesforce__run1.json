@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 40,
+  "readability_burden": 45,
+  "aggressive_clauses": 75,
+  "overall_deception": 50,
+  "tosdr_style_grade": "D",
+  "rationale": "While the terms do not actively disguise digital retail purchases as 'buying,' they employ a friendly, conversational tone to mask highly aggressive clauses regarding user content and privacy. The document grants Salesforce a perpetual, irrevocable license to user-submitted content while reserving the right to unilaterally terminate accounts, modify terms without notice, and share personal data with partners for marketing purposes.",
+  "evidence_quotes": [
+    "Using our Site does not give you ownership of any intellectual property rights to the content you access.",
+    "by posting Content, you grant us, our agents, licensees, and assigns an irrevocable, perpetual (non-exclusive) right and permission to reproduce...",
+    "agree to have your personal information shared with Salesforce partners for marketing purposes."
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/salesforce",
+    "run": 1
+  }
+}
