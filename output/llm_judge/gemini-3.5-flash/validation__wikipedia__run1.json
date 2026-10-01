@@ -1,0 +1,18 @@
+{
+  "ownership_opacity": 5,
+  "readability_burden": 35,
+  "aggressive_clauses": 30,
+  "overall_deception": 5,
+  "tosdr_style_grade": "A",
+  "rationale": "This document is exceptionally consumer-friendly, as it does not sell digital content and clearly states that all hosted materials are licensed under free, open-source terms. The inclusion of a clear, human-readable summary greatly reduces the readability burden, though standard liability limitations and a strict court venue in California remain. Overall, there is no ownership deception whatsoever, as the platform is built entirely around sharing free knowledge.",
+  "evidence_quotes": [
+    "you generally must license your contributions and edits to our sites or Projects under a free and open license",
+    "We reserve the right to suspend or end the services at any time, with or without cause, and with or without notice.",
+    "This summary is not a part of the Terms of Use and is not a legal document."
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "doc_id": "validation/wikipedia",
+    "run": 1
+  }
+}

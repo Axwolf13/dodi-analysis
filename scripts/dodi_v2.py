@@ -16,7 +16,6 @@ data/storefront/coding.csv.
 
     python scripts/dodi_v2.py
 """
-import csv
 import json
 from pathlib import Path
 
@@ -26,6 +25,11 @@ from scipy import stats
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CODING = REPO_ROOT / "data" / "storefront" / "coding.csv"
 OUT = REPO_ROOT / "output"
+
+
+def score_v2(contract, promise, disclosed):
+    """Contract score weighted by the store promise, halved if the licence is stated at sale."""
+    return contract * promise * (0.5 if disclosed else 1.0)
 
 
 def main():
@@ -39,7 +43,7 @@ def main():
             continue
         contract = float(match["DODI_Score"].iloc[0])
         disclosed = str(c["licence_at_sale"]).lower() == "yes"
-        v2 = contract * float(c["promise"]) * (0.5 if disclosed else 1.0)
+        v2 = score_v2(contract, float(c["promise"]), disclosed)
         rows.append({"platform": c["platform"], "year": int(c["year"]), "sale_type": c["sale_type"],
                      "promise": float(c["promise"]), "licence_at_sale": disclosed,
                      "dodi_v1_1": round(contract, 1), "dodi_v2": round(v2, 1)})

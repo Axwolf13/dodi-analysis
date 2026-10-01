@@ -24,7 +24,7 @@ Built solo for the Data and Society seminar at Saarland University, grounded in 
 
 ## Cross-checking with LLM judges
 
-I built a second, independent grader to check DODI: an LLM reads each document against a rubric and scores it 0-100 for ownership deception (`scripts/llm_judge.py`, `scripts/analyze_judge_agreement.py`). It runs on the local Claude subscription through the CLI with no API billing. Every response is cached, so the analysis reruns without a model.
+I built a second, independent grader to check DODI: an LLM reads each document against a rubric and scores it 0-100 for ownership deception (`scripts/llm_judge.py`, `scripts/analyze_judge_agreement.py`). The Claude judges run on the local subscription through the CLI with no API billing, and Gemini runs on its free API tier. Every response is cached, so the analysis reruns without a model.
 
 I expected the judges to agree with DODI. They don't.
 
@@ -33,19 +33,22 @@ I expected the judges to agree with DODI. They don't.
 | DODI v1.1 (counts words) | | ρ = 0.45 |
 | Claude Haiku (reads) | ρ = 0.12 (n = 51) | ρ = 0.34 |
 | Claude Sonnet (reads) | ρ = 0.26 (n = 11) | ρ = 0.34 |
+| Gemini 3.5 Flash (reads) | ρ = 0.05 (n = 11) | ρ = 0.34 |
 | Sonnet vs Haiku | ρ = 0.50 (n = 11) | |
+| Gemini vs Sonnet | ρ = 0.72 (n = 11) | |
+| Gemini vs Haiku | ρ = 0.46 (n = 11) | |
 
 What this says, in order of how much I trust it:
 
-1. **The judges barely agree with DODI.** Haiku lands at 0.12 across 51 documents, Sonnet at 0.26 across 11. They agree with each other (0.50) more than either agrees with DODI. The two models even score differently: Haiku high and narrow (lots of 68s), Sonnet lower and wider (most mainstream terms at "moderate"). Neither reads the documents the way DODI counts them.
-2. **Nobody wins against the humans.** DODI (0.45) edges both judges' scores (0.34), but Haiku's letter grade reaches 0.56. At n = 10 none of these differences can be told apart and none is significant.
+1. **The judges barely agree with DODI.** Haiku lands at 0.12 across 51 documents, Sonnet at 0.26 and Gemini at 0.05 across 11. They agree with each other more than any of them agrees with DODI. The strongest pair crosses vendors: Gemini and Sonnet reach 0.72, above the two Claude models (0.50), so the judges' shared reading isn't a Claude habit. The two models even score differently: Haiku high and narrow (lots of 68s), Sonnet lower and wider (most mainstream terms at "moderate"). Neither reads the documents the way DODI counts them.
+2. **Nobody wins against the humans.** DODI (0.45) edges all three judges' scores (0.34 each), but Haiku's letter grade reaches 0.56 and Gemini's 0.65. Gemini's is the only one under p = 0.05. With ten documents and this many comparisons, that's no reason to crown it. None of the differences between graders can be told apart.
 3. **The judges are consistent.** Ten documents judged three times each vary by 6.3 points on average, so the disagreement isn't noise.
 
 The clearest single case is **Adobe 2024**. DODI scores it 95.7, the 7th most deceptive of 40 documents. Haiku scores it 44 and Sonnet 32. Both judges cite the same sentence: Adobe states plainly that its software is "licensed, not sold", and its store prices every plan per month. The button says "Buy now", but nobody mistakes a subscription for ownership. DODI can't tell honest licensing from deceptive licensing, because it counts licence words. That's the same false positive as Wikipedia above. [DODI v2](#dodi-v2-what-the-store-promises-against-what-the-contract-grants) measures exactly that gap: what the storefront promises against what the contract grants.
 
 The honest read: three reasonable methods for "ownership deception" barely converge. It isn't one well-defined number, which is a caution against trusting any single automated ToS score, including this one.
 
-Model notes: the Haiku judgments (`--model haiku`) and the Sonnet validation judgments (`--model sonnet`) ran in August 2026. The Sonnet judgment of Adobe 2024 ran in September 2026 and resolved to `claude-sonnet-5-5`. Temperature can't be set through the CLI. A cross-vendor judge (Gemini 3.5 Flash, `scripts/llm_judge.py`) has scored 10 of the 11 validation documents so far; the free tier allows 20 requests a day and overload errors count against it. It isn't reported until it's complete.
+Model notes: the Haiku judgments (`--model haiku`) and the Sonnet validation judgments (`--model sonnet`) ran in August 2026. The Sonnet judgment of Adobe 2024 ran in September 2026 and resolved to `claude-sonnet-5-5`. Temperature can't be set through the CLI. The cross-vendor judge (Gemini 3.5 Flash) scored the 11 validation documents on 30 September and 1 October 2026, on the free API tier (20 requests a day, and overload errors count against it).
 
 ## DODI v2: what the store promises against what the contract grants
 
@@ -129,6 +132,7 @@ scripts/
   download_tos_documents.py     July 2026 text collection (the API route no longer exists)
 mcp_server.py                   DODI as an MCP server (stdio or Streamable HTTP)
 tests/test_mcp_server.py        end-to-end protocol test over both transports
+tests/test_dodi_v2.py           the three rules of the v2 weighting
 data/
   temporal/                     40 ToS snapshots: 10 platforms × {2015, 2018, 2021, 2024}
   validation/                   11 ToS texts matched to ToS;DR grades (tosdr_grades.csv)
@@ -154,6 +158,10 @@ python scripts/matching_audit.py
 
 # judge agreement, from the cached judge responses (no model needed)
 python scripts/analyze_judge_agreement.py
+
+# DODI v2 from the storefront coding, and its checks
+python scripts/dodi_v2.py
+python tests/test_dodi_v2.py
 
 # score your own documents: drop .txt files in a folder and point the batch analyzer at it
 python scripts/batch_analyzer_clean.py

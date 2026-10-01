@@ -28,12 +28,12 @@ claude-sonnet-cli score vs ToS;DR grade: Spearman rho = 0.338 (p = 0.3393, n = 1
 claude-sonnet-cli letter grade vs ToS;DR grade: Spearman rho = 0.270 (p = 0.4505, n = 10)
 claude-sonnet-cli vs claude-haiku-cli: Spearman rho = 0.500 (p = 0.1173, n = 11)
 claude-sonnet-cli vs claude-haiku-cli: mean absolute score difference 18.2 points
-gemini-3.5-flash vs DODI: Spearman rho = 0.110 (p = 0.7614, n = 10)
-gemini-3.5-flash score vs ToS;DR grade: Spearman rho = 0.000 (p = 1.0000, n = 9)
-gemini-3.5-flash letter grade vs ToS;DR grade: Spearman rho = 0.430 (p = 0.2474, n = 9)
-gemini-3.5-flash vs claude-haiku-cli: Spearman rho = 0.277 (p = 0.4386, n = 10)
-gemini-3.5-flash vs claude-haiku-cli: mean absolute score difference 16.3 points
-claude-sonnet-cli vs gemini-3.5-flash: Spearman rho = 0.622 (p = 0.0551, n = 10)
+gemini-3.5-flash vs DODI: Spearman rho = 0.048 (p = 0.8879, n = 11)
+gemini-3.5-flash score vs ToS;DR grade: Spearman rho = 0.339 (p = 0.3377, n = 10)
+gemini-3.5-flash letter grade vs ToS;DR grade: Spearman rho = 0.646 (p = 0.0438, n = 10)
+gemini-3.5-flash vs claude-haiku-cli: Spearman rho = 0.460 (p = 0.1548, n = 11)
+gemini-3.5-flash vs claude-haiku-cli: mean absolute score difference 14.9 points
+claude-sonnet-cli vs gemini-3.5-flash: Spearman rho = 0.717 (p = 0.0130, n = 11)
 
 ## Largest rank disagreements (judge vs DODI)
 
